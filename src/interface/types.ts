@@ -16,42 +16,63 @@ interface Airport {
 }
 
 export interface FlightType {
-    carrierCode?: {
-        iata?: string
-        icao?: string
-    }
-    serviceSuffix?: string
-    flightNumber?: number
-    sequenceNumber?: number
-    flightType?: string
-    departure: Airport
-    arrival: Airport
-    aircraftType?: string
-    serviceTypeCode?: string
-    segmentInfo?: {
-        numberOfStops?: number
-        intermediateAirports?: {
-            iata?: any
+    data: {
+        carrierCode: {
+            iata: string
+            icao: string
         }
-    }
-    oagFingerprint?: string
-    codeshare?: {
-        operatingAirlineDisclosure: {
-            code?: string
-            name?: string
-            number?: string
+        serviceSuffix: string
+        flightNumber: number
+        sequenceNumber: number
+        flightType: string
+        departure: {
+            airport: {
+                iata: string
+                icao: string
+            }
+            terminal: string
+            date: string
+            passengerLocalTime: string
         }
-        aircraftOwner: {
-            code?: string
-            name?: string
+        arrival: {
+            airport: {
+                iata: string
+                icao: string
+            }
+            terminal: string
+            date: string
+            passengerLocalTime: string
         }
-        jointOperationAirlineDesignators: {
-            comments010?: any
-            comment050?: {
-                code?: string
-                serviceNumber?: string
-                suffix?: string
+        aircraftType: {
+            iata: string
+        }
+        serviceTypeCode: {
+            iata: string
+        }
+        segmentInfo: {
+            numberOfStops: number
+            intermediateAirports: {
+                iata: string[]
             }
         }
-    }
+        oagFingerprint: string
+        codeshare: {
+            operatingAirlineDisclosure: {
+                code: string
+                name: string
+                number: string
+            }
+            aircraftOwner: {
+                code: string
+                name: string
+            }
+            jointOperationAirlineDesignators: string[]
+            comments010: string[]
+            comment050: {
+                code: string
+                serviceNumber: string
+                suffix: string
+            }
+        }
+    }[]
 }

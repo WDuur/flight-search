@@ -1,6 +1,6 @@
 import { ref, reactive, readonly } from 'vue'
 import type { City, FlightType } from '@/interface/types'
-import flightData from '@/__Mock__/flightData.json'
+import flightData from '@/__mock__/flightData.json'
 
 export interface SearchData {
     departure: City
@@ -12,7 +12,11 @@ const dummy: boolean = true
 
 export default function useFlightSearch() {
     const state = ref('idle')
-    let flightResult: FlightType = reactive({})
+    //const flightResult = reactive({})
+
+    const flightResult = reactive<FlightType>({
+        data: [],
+    })
 
     const searchData = reactive<SearchData>({
         departure: { name: '', code: '' },
@@ -51,9 +55,8 @@ export default function useFlightSearch() {
                 console.error(error)
             }
         } else {
-            console.log(flightData.data)
-
-            flightResult = flightData.data
+            flightResult.data = flightData.data
+            console.log('flightResult', flightResult.data)
         }
     }
 

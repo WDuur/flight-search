@@ -6,7 +6,7 @@ import type { City } from '@/interface/types'
 
 import useFlightSearch from '@/composables/useFlightSearch'
 
-const { state, searchData, searchQuery } = useFlightSearch()
+const { state, searchData, searchQuery, flightResult } = useFlightSearch()
 
 const cities: City[] = [
     { name: 'New York', code: 'JFK' },
@@ -52,6 +52,7 @@ const submitForm = () => {
             />
         </form>
     </div>
+    {{ flightResult }}
 </template>
 
 <style scoped lang="scss">

@@ -8,6 +8,6 @@
   },
   "files": [
     // other files in your project
-    "src/__Mock__/flightData.json"
+    "src/__mock__/flightData.json"
   ]
 }
