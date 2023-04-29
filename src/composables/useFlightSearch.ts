@@ -6,22 +6,19 @@ export interface SearchData {
     departure: City
     arrival: City
     departureDate: Date
+    state: string
 }
-
-const dummy: boolean = true
 
 export default function useFlightSearch() {
     const state = ref('idle')
-    //const flightResult = reactive({})
 
-    const flightResult = reactive<FlightType>({
-        data: [],
-    })
+    const flightResult = reactive<FlightType>({})
 
     const searchData = reactive<SearchData>({
         departure: { name: '', code: '' },
         arrival: { name: '', code: '' },
         departureDate: new Date(),
+        state: 'api',
     })
 
     const options = {
@@ -42,21 +39,26 @@ export default function useFlightSearch() {
             2,
             '0'
         )}`
+        const isRealData =
+            Array.isArray(searchData.state) && searchData.state.includes('api')
 
         // https://rapidapi.com/oag-oag-default/api/flight-info-api/
         const url = `https://flight-info-api.p.rapidapi.com/schedules?version=v1&DepartureDate=${formattedDate}&DepartureAirport=${searchData.departure.code}&ArrivalAirport=${searchData.arrival.code}`
-        console.log(url)
-        if (!dummy) {
+
+        if (isRealData) {
             try {
                 const response = await fetch(url, options)
                 const result = await response.json()
                 console.log(result.data)
+                state.value = 'api'
+                flightResult.data = result.data
             } catch (error) {
                 console.error(error)
             }
         } else {
+            state.value = 'dummy'
             flightResult.data = flightData.data
-            console.log('flightResult', flightResult.data)
+            console.log('flightResult >>', flightResult.data)
         }
     }
 

@@ -1,16 +1,16 @@
 <script setup lang="ts">
 import Card from 'primevue/card'
+import useFlightSearch from '@/composables/useFlightSearch'
+
+const { state, flightResult } = useFlightSearch()
 </script>
 
 <template>
     <Card>
         <template #header />
-        <template #title> Advanced Card </template>
+        <template #title> Flight Result {{ state }}</template>
         <template #content>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore
-            sed consequuntur error repudiandae numquam deserunt quisquam
-            repellat libero asperiores earum nam nobis, culpa ratione quam
-            perferendis esse, cupiditate neque quas!
+            <pre>{{ flightResult }}</pre>
         </template>
         <template #footer>
             <Button icon="pi pi-check" label="Save" />
