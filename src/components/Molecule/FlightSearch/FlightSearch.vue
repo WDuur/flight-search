@@ -1,7 +1,9 @@
 <script setup lang="ts">
+// import { ref } from 'vue'
 import Dropdown from 'primevue/dropdown'
 import Calendar from 'primevue/calendar'
 import Button from 'primevue/button'
+import Checkbox from 'primevue/checkbox'
 import type { City } from '@/interface/types'
 
 import useFlightSearch from '@/composables/useFlightSearch'
@@ -24,7 +26,16 @@ const submitForm = () => {
 <template>
     <div class="search">
         <h2>Vluchten zoeken: {{ state }}</h2>
+
         <form @submit.prevent="submitForm">
+            <Checkbox
+                v-model="searchData.state"
+                inputId="state"
+                name="state"
+                value="api"
+                checked
+            />
+            use API
             <Dropdown
                 v-model="searchData.departure"
                 id
@@ -52,7 +63,6 @@ const submitForm = () => {
             />
         </form>
     </div>
-    {{ flightResult }}
 </template>
 
 <style scoped lang="scss">

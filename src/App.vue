@@ -2,6 +2,7 @@
 import { RouterView } from 'vue-router'
 import MainNavigation from './components/Molecule/MainNaviagation/MainNavigation.vue'
 import FlightSearch from './components/Molecule/FlightSearch/FlightSearch.vue'
+import FlightResults from './components/Molecule/FlightSearch/FlightResults.vue'
 </script>
 
 <template>
@@ -9,6 +10,7 @@ import FlightSearch from './components/Molecule/FlightSearch/FlightSearch.vue'
         <div class="row-1"><MainNavigation /></div>
         <div class="row-2">
             <FlightSearch />
+            <FlightResults />
             <RouterView />
         </div>
     </div>
