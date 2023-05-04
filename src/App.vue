@@ -2,7 +2,6 @@
 import { RouterView } from 'vue-router'
 import MainNavigation from './components/Molecule/MainNaviagation/MainNavigation.vue'
 import FlightSearch from './components/Molecule/FlightSearch/FlightSearch.vue'
-import FlightResults from './components/Molecule/FlightSearch/FlightResults.vue'
 </script>
 
 <template>
@@ -10,7 +9,6 @@ import FlightResults from './components/Molecule/FlightSearch/FlightResults.vue'
         <div class="row-1"><MainNavigation /></div>
         <div class="row-2">
             <FlightSearch />
-            <FlightResults />
             <RouterView />
         </div>
     </div>
@@ -31,5 +29,6 @@ import FlightResults from './components/Molecule/FlightSearch/FlightResults.vue'
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 10px;
     grid-row: 2 / 3;
+    align-items: start;
 }
 </style>

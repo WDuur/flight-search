@@ -1,5 +1,5 @@
 import { ref, reactive, readonly } from 'vue'
-import type { City, FlightType } from '@/interface/types'
+import type { City, Flight } from '@/interface/types'
 import flightData from '@/__mock__/flightData.json'
 
 export interface SearchData {
@@ -8,20 +8,27 @@ export interface SearchData {
     departureDate: Date
     state: string
 }
+export interface FlightRoute {
+    from: String
+    to: String
+}
+const state = ref<String>('idle')
+const flightResult = ref<Flight[]>([]);
+const searchData = reactive<SearchData>({
+    departure: { name: '', code: '' },
+    arrival: { name: '', code: '' },
+    departureDate: new Date(),
+    state: 'api',
+})
 
-export default function useFlightSearch() {
-    const state = ref('idle')
+const flightRoute = ref<FlightRoute>({
+    from: '',
+    to: '',
+});
 
-    const flightResult = reactive<FlightType>({})
-
-    const searchData = reactive<SearchData>({
-        departure: { name: '', code: '' },
-        arrival: { name: '', code: '' },
-        departureDate: new Date(),
-        state: 'api',
-    })
-
-    const options = {
+export function useFlightSearch() {
+  
+   const options = {
         method: 'GET',
         headers: {
             'content-type': 'application/octet-stream',
@@ -32,6 +39,7 @@ export default function useFlightSearch() {
     }
 
     const searchQuery = async () => {
+
         const [day, month, year] = new Date(searchData.departureDate)
             .toLocaleDateString('nl-NL')
             .split('-')
@@ -39,31 +47,40 @@ export default function useFlightSearch() {
             2,
             '0'
         )}`
-        const isRealData =
+
+
+
+        const fetchApi =
             Array.isArray(searchData.state) && searchData.state.includes('api')
 
+            console.log(searchData)
         // https://rapidapi.com/oag-oag-default/api/flight-info-api/
         const url = `https://flight-info-api.p.rapidapi.com/schedules?version=v1&DepartureDate=${formattedDate}&DepartureAirport=${searchData.departure.code}&ArrivalAirport=${searchData.arrival.code}`
 
-        if (isRealData) {
+        if (fetchApi) {
             try {
                 const response = await fetch(url, options)
                 const result = await response.json()
                 console.log(result.data)
                 state.value = 'api'
-                flightResult.data = result.data
+                flightResult.value = result.data
             } catch (error) {
                 console.error(error)
             }
         } else {
-            state.value = 'dummy'
-            flightResult.data = flightData.data
-            console.log('flightResult >>', flightResult.data)
+            flightResult.value = flightData
+            flightRoute.value = {
+                from: searchData.departure.name,
+                to: searchData.arrival.name,
+            }
         }
+
     }
 
     return {
         state: readonly(state),
+        flightRoute,
+        location,
         searchData,
         flightResult,
         searchQuery,

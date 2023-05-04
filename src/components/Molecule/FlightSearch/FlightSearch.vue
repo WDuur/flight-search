@@ -1,14 +1,14 @@
 <script setup lang="ts">
-// import { ref } from 'vue'
 import Dropdown from 'primevue/dropdown'
 import Calendar from 'primevue/calendar'
 import Button from 'primevue/button'
 import Checkbox from 'primevue/checkbox'
 import type { City } from '@/interface/types'
 
-import useFlightSearch from '@/composables/useFlightSearch'
+import { useFlightSearch } from '@/composable/useFlightSearch'
 
 const { state, searchData, searchQuery, flightResult } = useFlightSearch()
+
 
 const cities: City[] = [
     { name: 'New York', code: 'JFK' },
