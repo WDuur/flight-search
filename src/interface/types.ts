@@ -1,5 +1,11 @@
 import type { N } from 'vitest/dist/types-71ccd11d'
 
+export interface TimelineItem {
+  id: number
+  status: string
+  isSelected: boolean
+}
+
 export interface City {
     name: string
     code: string

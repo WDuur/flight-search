@@ -1,11 +1,11 @@
 [
   {
     "carrierCode": {
-      "iata": "MF",
+      "iata": "KL",
       "icao": "CXA"
     },
     "serviceSuffix": "",
-    "flightNumber": 9301,
+    "flightNumber": 98,
     "sequenceNumber": 1,
     "flightType": "Scheduled",
     "departure": {
@@ -60,11 +60,11 @@
   },
     {
     "carrierCode": {
-      "iata": "MF",
+      "iata": "AA",
       "icao": "CXA"
     },
     "serviceSuffix": "",
-    "flightNumber": 9301,
+    "flightNumber": 1232,
     "sequenceNumber": 1,
     "flightType": "Scheduled",
     "departure": {
