@@ -8,39 +8,35 @@ import TimeSheet from '@/components/Molecule/TimeSheet/TimeSheet.vue'
 import { useFlightSearch } from '@/composable/useFlightSearch'
 import { useTimeline } from '@/composable/useTimeline'
 
-const { state, flightResult, flightRoute, selected } = useFlightSearch()
+const { state, flightResult, flightRoute, originalFlightResult } =
+  useFlightSearch()
 const { selectTimeline } = useTimeline()
-
-const originalFlightResult = ref<Flight[]>([])
 
 const departureDate = (date: string) => {
   const [year, month, day] = date.split('-')
   return `${day}-${month}-${year}`
 }
 const flightNumber = (iata: String, number: Number) => {
-  return iata + number.toString().padStart(4, '0')
+  let textNumber = number.toString()
+  return iata + textNumber.padStart(4, '0')
 }
+
 const selectFlight = (selectedFlight: Number) => {
-  originalFlightResult.value = flightResult.value
   flightResult.value = flightResult.value.filter(
     (flight: any) => flight.flightNumber === selectedFlight
   )
-  selected.value = 'selected'
-  selectTimeline(1)
-}
-const restoreFlightResult = () => {
-  flightResult.value = originalFlightResult.value
-  selected.value = 'idle'
+  state.value = 'selected'
   selectTimeline(1)
 }
 
-const hasFlightSelected = computed(() => selected.value === 'selected')
+const resultHeader = computed(() =>
+  state.value === 'selected' ? 'Geselecteerd:' : 'Voor u gevonden:'
+)
 </script>
 
 <template>
-  <div v-if="state === 'result'">
-    <h2 v-if="!hasFlightSelected">Voor u gevonden:</h2>
-    <h2 v-else>Geselecteerd:</h2>
+  <div>
+    <h2>{{ resultHeader }}</h2>
     <Card
       v-for="(flight, idx) in flightResult"
       :key="idx"
@@ -50,9 +46,7 @@ const hasFlightSelected = computed(() => selected.value === 'selected')
         <span class="flight-result__location">
           <span
             v-text="flightNumber(flight.carrierCode.iata, flight.flightNumber)"
-          />
-          |
-          {{ flightRoute.from
+          />| {{ flightRoute.from
           }}<sub class="code">({{ flight.departure.airport.iata }})</sub> -
           {{ flightRoute.to }}
           <sub class="code">({{ flight.arrival.airport.iata }})</sub>
@@ -64,26 +58,17 @@ const hasFlightSelected = computed(() => selected.value === 'selected')
       <template #content>
         <TimeSheet :flight="flight" />
         <Button
-          v-if="!hasFlightSelected"
           icon="pi pi-chevron-right"
           aria-label="select"
           @click="selectFlight(flight.flightNumber)"
         />
       </template>
     </Card>
-    <a
-      href="#"
-      v-if="selected === 'selected'"
-      class="restore-search"
-      @click="restoreFlightResult()"
-    >
-      reset selectie
-    </a>
   </div>
 </template>
 
 <style scoped lang="scss">
-@import '../../../scss/colors';
+@import '@/scss/colors';
 sub {
   vertical-align: middle;
   font-size: small;
@@ -96,7 +81,7 @@ sub {
     padding: 0;
   }
   &:deep(.p-card-title) {
-    background: $black;
+    background: var(--black);
     display: flex;
     width: 100%;
     justify-content: space-between;
@@ -107,8 +92,5 @@ sub {
     justify-content: space-between;
     padding-right: 1rem;
   }
-}
-.restore-search {
-  cursor: pointer;
 }
 </style>

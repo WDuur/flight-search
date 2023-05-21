@@ -8,7 +8,9 @@ import FlightPassengers from './components/Molecule/FlightPassengers/FlightPasse
 
 import type { TimelineItem } from '@/interface/types'
 import { useTimeline } from '@/composable/useTimeline'
+import { useFlightSearch } from '@/composable/useFlightSearch'
 
+const { state } = useFlightSearch()
 const { timeline } = useTimeline()
 
 const selectItem = (item: TimelineItem) => {
@@ -37,6 +39,7 @@ const selectItem = (item: TimelineItem) => {
       </Timeline>
     </div>
     <div class="flight-container__flights">
+      {{ state }}
       <FlightSearch />
       <FlightResults />
       <FlightPassengers />
@@ -64,15 +67,15 @@ const selectItem = (item: TimelineItem) => {
     cursor: pointer;
   }
   &:deep(.p-timeline-event-marker) {
-    background: #9eade6;
+    background: var(--steelBlue);
   }
   .marker {
-    border: 2px solid #9eade6;
+    border: 2px solid var(--steelBlue);
     border-radius: 50%;
     width: 1rem;
     height: 1rem;
     &.selected {
-      background: #9eade6;
+      background: var(--steelBlue);
     }
   }
 }

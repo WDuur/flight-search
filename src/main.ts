@@ -8,7 +8,7 @@ import 'primevue/resources/primevue.min.css'
 import 'primeicons/primeicons.css'
 
 import './assets/main.css'
-import './scss/_colors.scss'
+import '@/scss/_colors.scss'
 
 const app = createApp(App)
 
