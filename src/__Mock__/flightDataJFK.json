@@ -1,0 +1,1121 @@
+[
+  {
+      "carrierCode": {
+          "iata": "DL",
+          "icao": "DAL"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 47,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+          "airport": {
+              "iata": "AMS"
+          },
+          "terminal": "",
+          "date": "2023-05-21",
+          "passengerLocalTime": "10:55"
+      },
+      "arrival": {
+          "airport": {
+              "iata": "JFK"
+          },
+          "terminal": "4",
+          "date": "2023-05-21",
+          "passengerLocalTime": "13:25"
+      },
+      "aircraftType": {
+          "iata": "333"
+      },
+      "serviceTypeCode": {
+          "iata": "J"
+      },
+      "segmentInfo": {
+          "numberOfStops": 0,
+          "intermediateAirports": {
+              "iata": []
+          }
+      },
+      "oagFingerprint": "74257f7e68e296fcf7908fbabeca061f78162812891d2da33cdf8c68ee928f17",
+      "codeshare": {
+          "jointOperationAirlineDesignators": [],
+          "comments010": [
+              {
+                  "code": "AF",
+                  "serviceNumber": "5596",
+                  "suffix": ""
+              },
+              {
+                  "code": "KL",
+                  "serviceNumber": "6020",
+                  "suffix": ""
+              },
+              {
+                  "code": "VS",
+                  "serviceNumber": "3941",
+                  "suffix": ""
+              }
+          ]
+      }
+  },
+  {
+      "carrierCode": {
+          "iata": "KL",
+          "icao": "KLM"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 6020,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+          "airport": {
+              "iata": "AMS"
+          },
+          "terminal": "",
+          "date": "2023-05-21",
+          "passengerLocalTime": "10:55"
+      },
+      "arrival": {
+          "airport": {
+              "iata": "JFK"
+          },
+          "terminal": "4",
+          "date": "2023-05-21",
+          "passengerLocalTime": "13:25"
+      },
+      "aircraftType": {
+          "iata": "333"
+      },
+      "serviceTypeCode": {
+          "iata": "J"
+      },
+      "segmentInfo": {
+          "numberOfStops": 0,
+          "intermediateAirports": {
+              "iata": []
+          }
+      },
+      "oagFingerprint": "085b52168138df1aef544f59fd8dcb38f5dae4e1f09806db18febe163466fa96",
+      "codeshare": {
+          "operatingAirlineDisclosure": {
+              "code": "DL",
+              "name": "",
+              "number": "2"
+          },
+          "aircraftOwner": {
+              "code": "DL",
+              "name": ""
+          },
+          "jointOperationAirlineDesignators": [],
+          "comments010": [],
+          "comment050": {
+              "code": "DL",
+              "serviceNumber": "47",
+              "suffix": ""
+          }
+      }
+  },
+  {
+      "carrierCode": {
+          "iata": "VS",
+          "icao": "VIR"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 3941,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+          "airport": {
+              "iata": "AMS"
+          },
+          "terminal": "",
+          "date": "2023-05-21",
+          "passengerLocalTime": "10:55"
+      },
+      "arrival": {
+          "airport": {
+              "iata": "JFK"
+          },
+          "terminal": "4",
+          "date": "2023-05-21",
+          "passengerLocalTime": "13:25"
+      },
+      "aircraftType": {
+          "iata": "333"
+      },
+      "serviceTypeCode": {
+          "iata": "J"
+      },
+      "segmentInfo": {
+          "numberOfStops": 0,
+          "intermediateAirports": {
+              "iata": []
+          }
+      },
+      "oagFingerprint": "c17ad4cb91ec1f236d07a5e7ab5f2dc4ecfb86e5cbb3cd737adc51e8c1da99cb",
+      "codeshare": {
+          "operatingAirlineDisclosure": {
+              "code": "DL",
+              "name": "",
+              "number": "2"
+          },
+          "aircraftOwner": {
+              "code": "DL",
+              "name": ""
+          },
+          "jointOperationAirlineDesignators": [],
+          "comments010": [],
+          "comment050": {
+              "code": "DL",
+              "serviceNumber": "47",
+              "suffix": ""
+          }
+      }
+  },
+  {
+      "carrierCode": {
+          "iata": "AF",
+          "icao": "AFR"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 5595,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+          "airport": {
+              "iata": "AMS"
+          },
+          "terminal": "",
+          "date": "2023-05-21",
+          "passengerLocalTime": "12:00"
+      },
+      "arrival": {
+          "airport": {
+              "iata": "JFK"
+          },
+          "terminal": "4",
+          "date": "2023-05-21",
+          "passengerLocalTime": "13:59"
+      },
+      "aircraftType": {
+          "iata": "339"
+      },
+      "serviceTypeCode": {
+          "iata": "J"
+      },
+      "segmentInfo": {
+          "numberOfStops": 0,
+          "intermediateAirports": {
+              "iata": []
+          }
+      },
+      "oagFingerprint": "d154dc98a652dfaaface60b15125afe172b4377f4a48ca6d739eb15bc1f5c6a4",
+      "codeshare": {
+          "operatingAirlineDisclosure": {
+              "code": "DL",
+              "name": "",
+              "number": "2"
+          },
+          "aircraftOwner": {
+              "code": "DL",
+              "name": ""
+          },
+          "cockpitCrewEmployer": {
+              "code": "DL",
+              "name": "",
+              "number": "4"
+          },
+          "jointOperationAirlineDesignators": [],
+          "comments010": [],
+          "comment050": {
+              "code": "DL",
+              "serviceNumber": "49",
+              "suffix": ""
+          }
+      }
+  },
+  {
+      "carrierCode": {
+          "iata": "DL",
+          "icao": "DAL"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 49,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+          "airport": {
+              "iata": "AMS"
+          },
+          "terminal": "",
+          "date": "2023-05-21",
+          "passengerLocalTime": "12:00"
+      },
+      "arrival": {
+          "airport": {
+              "iata": "JFK"
+          },
+          "terminal": "4",
+          "date": "2023-05-21",
+          "passengerLocalTime": "13:59"
+      },
+      "aircraftType": {
+          "iata": "339"
+      },
+      "serviceTypeCode": {
+          "iata": "J"
+      },
+      "segmentInfo": {
+          "numberOfStops": 0,
+          "intermediateAirports": {
+              "iata": []
+          }
+      },
+      "oagFingerprint": "0678e941116a0a9d233f63d1970a8e3df51574f9c5c77db4564ccc5949cc3ab4",
+      "codeshare": {
+          "jointOperationAirlineDesignators": [],
+          "comments010": [
+              {
+                  "code": "AF",
+                  "serviceNumber": "5595",
+                  "suffix": ""
+              },
+              {
+                  "code": "KL",
+                  "serviceNumber": "6149",
+                  "suffix": ""
+              },
+              {
+                  "code": "VS",
+                  "serviceNumber": "3951",
+                  "suffix": ""
+              }
+          ]
+      }
+  },
+  {
+      "carrierCode": {
+          "iata": "KL",
+          "icao": "KLM"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 6149,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+          "airport": {
+              "iata": "AMS"
+          },
+          "terminal": "",
+          "date": "2023-05-21",
+          "passengerLocalTime": "12:00"
+      },
+      "arrival": {
+          "airport": {
+              "iata": "JFK"
+          },
+          "terminal": "4",
+          "date": "2023-05-21",
+          "passengerLocalTime": "13:59"
+      },
+      "aircraftType": {
+          "iata": "339"
+      },
+      "serviceTypeCode": {
+          "iata": "J"
+      },
+      "segmentInfo": {
+          "numberOfStops": 0,
+          "intermediateAirports": {
+              "iata": []
+          }
+      },
+      "oagFingerprint": "e858280d347b21e3e8774ce9ed7eeecb9064a43e579108be92954f280c64b30b",
+      "codeshare": {
+          "operatingAirlineDisclosure": {
+              "code": "DL",
+              "name": "",
+              "number": "2"
+          },
+          "aircraftOwner": {
+              "code": "DL",
+              "name": ""
+          },
+          "jointOperationAirlineDesignators": [],
+          "comments010": [],
+          "comment050": {
+              "code": "DL",
+              "serviceNumber": "49",
+              "suffix": ""
+          }
+      }
+  },
+  {
+      "carrierCode": {
+          "iata": "VS",
+          "icao": "VIR"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 3951,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+          "airport": {
+              "iata": "AMS"
+          },
+          "terminal": "",
+          "date": "2023-05-21",
+          "passengerLocalTime": "12:00"
+      },
+      "arrival": {
+          "airport": {
+              "iata": "JFK"
+          },
+          "terminal": "4",
+          "date": "2023-05-21",
+          "passengerLocalTime": "13:59"
+      },
+      "aircraftType": {
+          "iata": "339"
+      },
+      "serviceTypeCode": {
+          "iata": "J"
+      },
+      "segmentInfo": {
+          "numberOfStops": 0,
+          "intermediateAirports": {
+              "iata": []
+          }
+      },
+      "oagFingerprint": "fed5ed548660cf0ec2d3c2cad1629d69161b52e6b28befd8f61a946ce20bc221",
+      "codeshare": {
+          "operatingAirlineDisclosure": {
+              "code": "DL",
+              "name": "",
+              "number": "2"
+          },
+          "aircraftOwner": {
+              "code": "DL",
+              "name": ""
+          },
+          "jointOperationAirlineDesignators": [],
+          "comments010": [],
+          "comment050": {
+              "code": "DL",
+              "serviceNumber": "49",
+              "suffix": ""
+          }
+      }
+  },
+  {
+      "carrierCode": {
+          "iata": "DL",
+          "icao": "DAL"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 9348,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+          "airport": {
+              "iata": "AMS"
+          },
+          "terminal": "",
+          "date": "2023-05-21",
+          "passengerLocalTime": "13:25"
+      },
+      "arrival": {
+          "airport": {
+              "iata": "JFK"
+          },
+          "terminal": "4",
+          "date": "2023-05-21",
+          "passengerLocalTime": "15:25"
+      },
+      "aircraftType": {
+          "iata": "789"
+      },
+      "serviceTypeCode": {
+          "iata": "J"
+      },
+      "segmentInfo": {
+          "numberOfStops": 0,
+          "intermediateAirports": {
+              "iata": []
+          }
+      },
+      "oagFingerprint": "afb174ba78b8f62dab8fb179a38c6705e148cea98c2e427aeadd0a45f53e0c91",
+      "codeshare": {
+          "operatingAirlineDisclosure": {
+              "code": "KL",
+              "name": "",
+              "number": "2"
+          },
+          "aircraftOwner": {
+              "code": "KL",
+              "name": ""
+          },
+          "jointOperationAirlineDesignators": [],
+          "comments010": [],
+          "comment050": {
+              "code": "KL",
+              "serviceNumber": "641",
+              "suffix": ""
+          }
+      }
+  },
+  {
+      "carrierCode": {
+          "iata": "KL",
+          "icao": "KLM"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 641,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+          "airport": {
+              "iata": "AMS",
+              "icao": "EHAM"
+          },
+          "terminal": "",
+          "date": "2023-05-21",
+          "passengerLocalTime": "13:25"
+      },
+      "arrival": {
+          "airport": {
+              "iata": "JFK",
+              "icao": "KJFK"
+          },
+          "terminal": "4",
+          "date": "2023-05-21",
+          "passengerLocalTime": "15:25"
+      },
+      "aircraftType": {
+          "iata": "789"
+      },
+      "serviceTypeCode": {
+          "iata": "J"
+      },
+      "segmentInfo": {
+          "numberOfStops": 0,
+          "intermediateAirports": {
+              "iata": []
+          }
+      },
+      "oagFingerprint": "1ee0613083fbfad9d75e2aef400fa37ecd51d91e8d97e3e0b3f50850776c24f4",
+      "codeshare": {
+          "jointOperationAirlineDesignators": [],
+          "comments010": [
+              {
+                  "code": "AF",
+                  "serviceNumber": "6698",
+                  "suffix": ""
+              },
+              {
+                  "code": "DL",
+                  "serviceNumber": "9348",
+                  "suffix": ""
+              },
+              {
+                  "code": "VS",
+                  "serviceNumber": "6837",
+                  "suffix": ""
+              }
+          ]
+      }
+  },
+  {
+      "carrierCode": {
+          "iata": "AF",
+          "icao": "AFR"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 6698,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+          "airport": {
+              "iata": "AMS",
+              "icao": "EHAM"
+          },
+          "terminal": "",
+          "date": "2023-05-21",
+          "passengerLocalTime": "13:25"
+      },
+      "arrival": {
+          "airport": {
+              "iata": "JFK",
+              "icao": "KJFK"
+          },
+          "terminal": "4",
+          "date": "2023-05-21",
+          "passengerLocalTime": "15:25"
+      },
+      "aircraftType": {
+          "iata": "789"
+      },
+      "serviceTypeCode": {
+          "iata": "J"
+      },
+      "segmentInfo": {
+          "numberOfStops": 0,
+          "intermediateAirports": {
+              "iata": []
+          }
+      },
+      "oagFingerprint": "e8f38b9ea0c5a9600cf7f2a70f66f136e5a894d796138de3c2d9e7a709503a22",
+      "codeshare": {
+          "operatingAirlineDisclosure": {
+              "code": "KL",
+              "name": "",
+              "number": "2"
+          },
+          "aircraftOwner": {
+              "code": "KL",
+              "name": ""
+          },
+          "cockpitCrewEmployer": {
+              "code": "KL",
+              "name": "",
+              "number": "4"
+          },
+          "jointOperationAirlineDesignators": [],
+          "comments010": [],
+          "comment050": {
+              "code": "KL",
+              "serviceNumber": "641",
+              "suffix": ""
+          }
+      }
+  },
+  {
+      "carrierCode": {
+          "iata": "VS",
+          "icao": "VIR"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 6837,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+          "airport": {
+              "iata": "AMS",
+              "icao": "EHAM"
+          },
+          "terminal": "",
+          "date": "2023-05-21",
+          "passengerLocalTime": "13:25"
+      },
+      "arrival": {
+          "airport": {
+              "iata": "JFK",
+              "icao": "KJFK"
+          },
+          "terminal": "4",
+          "date": "2023-05-21",
+          "passengerLocalTime": "15:25"
+      },
+      "aircraftType": {
+          "iata": "789"
+      },
+      "serviceTypeCode": {
+          "iata": "J"
+      },
+      "segmentInfo": {
+          "numberOfStops": 0,
+          "intermediateAirports": {
+              "iata": []
+          }
+      },
+      "oagFingerprint": "f82a410b9a9fe8d56567413b574e2690192ad4a0f7e81c558fb680a4ff90e97b",
+      "codeshare": {
+          "operatingAirlineDisclosure": {
+              "code": "KL",
+              "name": "",
+              "number": "2"
+          },
+          "aircraftOwner": {
+              "code": "KL",
+              "name": ""
+          },
+          "jointOperationAirlineDesignators": [],
+          "comments010": [],
+          "comment050": {
+              "code": "KL",
+              "serviceNumber": "641",
+              "suffix": ""
+          }
+      }
+  },
+  {
+      "carrierCode": {
+          "iata": "AF",
+          "icao": "AFR"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 5193,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+          "airport": {
+              "iata": "AMS"
+          },
+          "terminal": "",
+          "date": "2023-05-21",
+          "passengerLocalTime": "14:35"
+      },
+      "arrival": {
+          "airport": {
+              "iata": "JFK"
+          },
+          "terminal": "4",
+          "date": "2023-05-21",
+          "passengerLocalTime": "16:35"
+      },
+      "aircraftType": {
+          "iata": "772"
+      },
+      "serviceTypeCode": {
+          "iata": "J"
+      },
+      "segmentInfo": {
+          "numberOfStops": 0,
+          "intermediateAirports": {
+              "iata": []
+          }
+      },
+      "oagFingerprint": "64a33de834ca90ee010b62ef0b5c428d3aa6aa7130ec918a3f1986447210f6c2",
+      "codeshare": {
+          "operatingAirlineDisclosure": {
+              "code": "KL",
+              "name": "",
+              "number": "2"
+          },
+          "aircraftOwner": {
+              "code": "KL",
+              "name": ""
+          },
+          "cockpitCrewEmployer": {
+              "code": "KL",
+              "name": "",
+              "number": "4"
+          },
+          "jointOperationAirlineDesignators": [],
+          "comments010": [],
+          "comment050": {
+              "code": "KL",
+              "serviceNumber": "645",
+              "suffix": ""
+          }
+      }
+  },
+  {
+      "carrierCode": {
+          "iata": "DL",
+          "icao": "DAL"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 9197,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+          "airport": {
+              "iata": "AMS"
+          },
+          "terminal": "",
+          "date": "2023-05-21",
+          "passengerLocalTime": "14:35"
+      },
+      "arrival": {
+          "airport": {
+              "iata": "JFK"
+          },
+          "terminal": "4",
+          "date": "2023-05-21",
+          "passengerLocalTime": "16:35"
+      },
+      "aircraftType": {
+          "iata": "772"
+      },
+      "serviceTypeCode": {
+          "iata": "J"
+      },
+      "segmentInfo": {
+          "numberOfStops": 0,
+          "intermediateAirports": {
+              "iata": []
+          }
+      },
+      "oagFingerprint": "5108d1e518d2fe43c9fa44565849bc57a67c751afc371bed431092548ef74269",
+      "codeshare": {
+          "operatingAirlineDisclosure": {
+              "code": "KL",
+              "name": "",
+              "number": "2"
+          },
+          "aircraftOwner": {
+              "code": "KL",
+              "name": ""
+          },
+          "jointOperationAirlineDesignators": [],
+          "comments010": [],
+          "comment050": {
+              "code": "KL",
+              "serviceNumber": "645",
+              "suffix": ""
+          }
+      }
+  },
+  {
+      "carrierCode": {
+          "iata": "KL",
+          "icao": "KLM"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 645,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+          "airport": {
+              "iata": "AMS"
+          },
+          "terminal": "",
+          "date": "2023-05-21",
+          "passengerLocalTime": "14:35"
+      },
+      "arrival": {
+          "airport": {
+              "iata": "JFK"
+          },
+          "terminal": "4",
+          "date": "2023-05-21",
+          "passengerLocalTime": "16:35"
+      },
+      "aircraftType": {
+          "iata": "772"
+      },
+      "serviceTypeCode": {
+          "iata": "J"
+      },
+      "segmentInfo": {
+          "numberOfStops": 0,
+          "intermediateAirports": {
+              "iata": []
+          }
+      },
+      "oagFingerprint": "b87722c5c279e72569ae8e59930493240532ba725d16fa401776c53ff75d84a7",
+      "codeshare": {
+          "jointOperationAirlineDesignators": [],
+          "comments010": [
+              {
+                  "code": "AF",
+                  "serviceNumber": "5193",
+                  "suffix": ""
+              },
+              {
+                  "code": "DL",
+                  "serviceNumber": "9197",
+                  "suffix": ""
+              },
+              {
+                  "code": "VS",
+                  "serviceNumber": "6839",
+                  "suffix": ""
+              }
+          ]
+      }
+  },
+  {
+      "carrierCode": {
+          "iata": "VS",
+          "icao": "VIR"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 6839,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+          "airport": {
+              "iata": "AMS"
+          },
+          "terminal": "",
+          "date": "2023-05-21",
+          "passengerLocalTime": "14:35"
+      },
+      "arrival": {
+          "airport": {
+              "iata": "JFK"
+          },
+          "terminal": "4",
+          "date": "2023-05-21",
+          "passengerLocalTime": "16:35"
+      },
+      "aircraftType": {
+          "iata": "772"
+      },
+      "serviceTypeCode": {
+          "iata": "J"
+      },
+      "segmentInfo": {
+          "numberOfStops": 0,
+          "intermediateAirports": {
+              "iata": []
+          }
+      },
+      "oagFingerprint": "1d05a96a753d2b327cdde8f30f72f5edaf22dd053ba602e1c054f55c3782c796",
+      "codeshare": {
+          "operatingAirlineDisclosure": {
+              "code": "KL",
+              "name": "",
+              "number": "2"
+          },
+          "aircraftOwner": {
+              "code": "KL",
+              "name": ""
+          },
+          "jointOperationAirlineDesignators": [],
+          "comments010": [],
+          "comment050": {
+              "code": "KL",
+              "serviceNumber": "645",
+              "suffix": ""
+          }
+      }
+  },
+  {
+      "carrierCode": {
+          "iata": "AF",
+          "icao": "AFR"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 6699,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+          "airport": {
+              "iata": "AMS"
+          },
+          "terminal": "",
+          "date": "2023-05-21",
+          "passengerLocalTime": "17:15"
+      },
+      "arrival": {
+          "airport": {
+              "iata": "JFK"
+          },
+          "terminal": "4",
+          "date": "2023-05-21",
+          "passengerLocalTime": "19:15"
+      },
+      "aircraftType": {
+          "iata": "781"
+      },
+      "serviceTypeCode": {
+          "iata": "J"
+      },
+      "segmentInfo": {
+          "numberOfStops": 0,
+          "intermediateAirports": {
+              "iata": []
+          }
+      },
+      "oagFingerprint": "ca8b237e2c57e0d366bbfa9b27657cddf9d3022dbf13e3f808f1e4a66ac8eb5a",
+      "codeshare": {
+          "operatingAirlineDisclosure": {
+              "code": "KL",
+              "name": "",
+              "number": "2"
+          },
+          "aircraftOwner": {
+              "code": "KL",
+              "name": ""
+          },
+          "cockpitCrewEmployer": {
+              "code": "KL",
+              "name": "",
+              "number": "4"
+          },
+          "jointOperationAirlineDesignators": [],
+          "comments010": [],
+          "comment050": {
+              "code": "KL",
+              "serviceNumber": "643",
+              "suffix": ""
+          }
+      }
+  },
+  {
+      "carrierCode": {
+          "iata": "DL",
+          "icao": "DAL"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 9358,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+          "airport": {
+              "iata": "AMS"
+          },
+          "terminal": "",
+          "date": "2023-05-21",
+          "passengerLocalTime": "17:15"
+      },
+      "arrival": {
+          "airport": {
+              "iata": "JFK"
+          },
+          "terminal": "4",
+          "date": "2023-05-21",
+          "passengerLocalTime": "19:15"
+      },
+      "aircraftType": {
+          "iata": "781"
+      },
+      "serviceTypeCode": {
+          "iata": "J"
+      },
+      "segmentInfo": {
+          "numberOfStops": 0,
+          "intermediateAirports": {
+              "iata": []
+          }
+      },
+      "oagFingerprint": "a2c0dc6a565f3184b32e1d0572c19c6fca7bc802f80a4637c27b60ce256d21f5",
+      "codeshare": {
+          "operatingAirlineDisclosure": {
+              "code": "KL",
+              "name": "",
+              "number": "2"
+          },
+          "aircraftOwner": {
+              "code": "KL",
+              "name": ""
+          },
+          "jointOperationAirlineDesignators": [],
+          "comments010": [],
+          "comment050": {
+              "code": "KL",
+              "serviceNumber": "643",
+              "suffix": ""
+          }
+      }
+  },
+  {
+      "carrierCode": {
+          "iata": "KL",
+          "icao": "KLM"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 643,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+          "airport": {
+              "iata": "AMS"
+          },
+          "terminal": "",
+          "date": "2023-05-21",
+          "passengerLocalTime": "17:15"
+      },
+      "arrival": {
+          "airport": {
+              "iata": "JFK"
+          },
+          "terminal": "4",
+          "date": "2023-05-21",
+          "passengerLocalTime": "19:15"
+      },
+      "aircraftType": {
+          "iata": "781"
+      },
+      "serviceTypeCode": {
+          "iata": "J"
+      },
+      "segmentInfo": {
+          "numberOfStops": 0,
+          "intermediateAirports": {
+              "iata": []
+          }
+      },
+      "oagFingerprint": "a508f50cdffdfbd574ffe396841aa65099703b6f65c4c9892bf16915e867a4fb",
+      "codeshare": {
+          "jointOperationAirlineDesignators": [],
+          "comments010": [
+              {
+                  "code": "AF",
+                  "serviceNumber": "6699",
+                  "suffix": ""
+              },
+              {
+                  "code": "DL",
+                  "serviceNumber": "9358",
+                  "suffix": ""
+              },
+              {
+                  "code": "VS",
+                  "serviceNumber": "6838",
+                  "suffix": ""
+              }
+          ]
+      }
+  },
+  {
+      "carrierCode": {
+          "iata": "VS",
+          "icao": "VIR"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 6838,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+          "airport": {
+              "iata": "AMS"
+          },
+          "terminal": "",
+          "date": "2023-05-21",
+          "passengerLocalTime": "17:15"
+      },
+      "arrival": {
+          "airport": {
+              "iata": "JFK"
+          },
+          "terminal": "4",
+          "date": "2023-05-21",
+          "passengerLocalTime": "19:15"
+      },
+      "aircraftType": {
+          "iata": "781"
+      },
+      "serviceTypeCode": {
+          "iata": "J"
+      },
+      "segmentInfo": {
+          "numberOfStops": 0,
+          "intermediateAirports": {
+              "iata": []
+          }
+      },
+      "oagFingerprint": "1b49ce7e1cfd9dc15e23887e79cb27102f81d80fcbd01eed2110c011eed2da06",
+      "codeshare": {
+          "operatingAirlineDisclosure": {
+              "code": "KL",
+              "name": "",
+              "number": "2"
+          },
+          "aircraftOwner": {
+              "code": "KL",
+              "name": ""
+          },
+          "jointOperationAirlineDesignators": [],
+          "comments010": [],
+          "comment050": {
+              "code": "KL",
+              "serviceNumber": "643",
+              "suffix": ""
+          }
+      }
+  }
+]

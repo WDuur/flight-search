@@ -1,0 +1,5471 @@
+ [
+    {
+      "carrierCode": {
+        "iata": "MF",
+        "icao": "CXA"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 9301,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "AMS",
+          "icao": "EHAM"
+        },
+        "terminal": "",
+        "date": "2023-04-28",
+        "passengerLocalTime": "07:15"
+      },
+      "arrival": {
+        "airport": {
+          "iata": "LHR",
+          "icao": "EGLL"
+        },
+        "terminal": "3",
+        "date": "2023-04-28",
+        "passengerLocalTime": "07:40"
+      },
+      "aircraftType": {
+        "iata": "73G"
+      },
+      "serviceTypeCode": {
+        "iata": "J"
+      },
+      "segmentInfo": {
+        "numberOfStops": 0,
+        "intermediateAirports": {
+          "iata": []
+        }
+      },
+      "oagFingerprint": "31bed2f69ee91cb22e62e1313b3a341b4dd2f5f99d6b3254146a42c2d1c2426a",
+      "codeshare": {
+        "operatingAirlineDisclosure": {
+          "code": "KL",
+          "name": "",
+          "number": "2"
+        },
+        "aircraftOwner": {
+          "code": "KL",
+          "name": ""
+        },
+        "jointOperationAirlineDesignators": [],
+        "comments010": [],
+        "comment050": {
+          "code": "KL",
+          "serviceNumber": "1001",
+          "suffix": ""
+        }
+      }
+    },
+    {
+      "carrierCode": {
+        "iata": "DL",
+        "icao": "DAL"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 9640,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "AMS",
+          "icao": "EHAM"
+        },
+        "terminal": "",
+        "date": "2023-04-28",
+        "passengerLocalTime": "07:15"
+      },
+      "arrival": {
+        "airport": {
+          "iata": "LHR",
+          "icao": "EGLL"
+        },
+        "terminal": "4",
+        "date": "2023-04-28",
+        "passengerLocalTime": "07:40"
+      },
+      "aircraftType": {
+        "iata": "73H"
+      },
+      "serviceTypeCode": {
+        "iata": "J"
+      },
+      "segmentInfo": {
+        "numberOfStops": 0,
+        "intermediateAirports": {
+          "iata": []
+        }
+      },
+      "oagFingerprint": "b6df92a815dedf6df019d789761a0a410b42719806215d4ae73e05d0e8fc58da",
+      "codeshare": {
+        "operatingAirlineDisclosure": {
+          "code": "KL",
+          "name": "",
+          "number": "2"
+        },
+        "aircraftOwner": {
+          "code": "KL",
+          "name": ""
+        },
+        "jointOperationAirlineDesignators": [],
+        "comments010": [],
+        "comment050": {
+          "code": "KL",
+          "serviceNumber": "1001",
+          "suffix": ""
+        }
+      }
+    },
+    {
+      "carrierCode": {
+        "iata": "KL",
+        "icao": "KLM"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 1001,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "AMS",
+          "icao": "EHAM"
+        },
+        "terminal": "",
+        "date": "2023-04-28",
+        "passengerLocalTime": "07:15"
+      },
+      "arrival": {
+        "airport": {
+          "iata": "LHR",
+          "icao": "EGLL"
+        },
+        "terminal": "4",
+        "date": "2023-04-28",
+        "passengerLocalTime": "07:40"
+      },
+      "aircraftType": {
+        "iata": "73H"
+      },
+      "serviceTypeCode": {
+        "iata": "J"
+      },
+      "segmentInfo": {
+        "numberOfStops": 0,
+        "intermediateAirports": {
+          "iata": []
+        }
+      },
+      "oagFingerprint": "e36c206b680c74c846122ec68fe9ec7bc6f285e6e85076ac7d06f1afc966c488",
+      "codeshare": {
+        "jointOperationAirlineDesignators": [],
+        "comments010": [
+          {
+            "code": "DL",
+            "serviceNumber": "9640",
+            "suffix": ""
+          },
+          {
+            "code": "KQ",
+            "serviceNumber": "1001",
+            "suffix": ""
+          },
+          {
+            "code": "MF",
+            "serviceNumber": "9301",
+            "suffix": ""
+          },
+          {
+            "code": "VS",
+            "serviceNumber": "6992",
+            "suffix": ""
+          }
+        ]
+      }
+    },
+    {
+      "carrierCode": {
+        "iata": "VS",
+        "icao": "VIR"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 6992,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "AMS",
+          "icao": "EHAM"
+        },
+        "terminal": "",
+        "date": "2023-04-28",
+        "passengerLocalTime": "07:15"
+      },
+      "arrival": {
+        "airport": {
+          "iata": "LHR",
+          "icao": "EGLL"
+        },
+        "terminal": "4",
+        "date": "2023-04-28",
+        "passengerLocalTime": "07:40"
+      },
+      "aircraftType": {
+        "iata": "73H"
+      },
+      "serviceTypeCode": {
+        "iata": "J"
+      },
+      "segmentInfo": {
+        "numberOfStops": 0,
+        "intermediateAirports": {
+          "iata": []
+        }
+      },
+      "oagFingerprint": "cb78b951470cd040e585baf159d68e85e510fa537a9dbbf5abc278e66548a567",
+      "codeshare": {
+        "operatingAirlineDisclosure": {
+          "code": "KL",
+          "name": "",
+          "number": "2"
+        },
+        "aircraftOwner": {
+          "code": "KL",
+          "name": ""
+        },
+        "jointOperationAirlineDesignators": [],
+        "comments010": [],
+        "comment050": {
+          "code": "KL",
+          "serviceNumber": "1001",
+          "suffix": ""
+        }
+      }
+    },
+    {
+      "carrierCode": {
+        "iata": "KQ",
+        "icao": "KQA"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 1001,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "AMS",
+          "icao": "EHAM"
+        },
+        "terminal": "",
+        "date": "2023-04-28",
+        "passengerLocalTime": "07:15"
+      },
+      "arrival": {
+        "airport": {
+          "iata": "LHR",
+          "icao": "EGLL"
+        },
+        "terminal": "4",
+        "date": "2023-04-28",
+        "passengerLocalTime": "07:40"
+      },
+      "aircraftType": {
+        "iata": "737"
+      },
+      "serviceTypeCode": {
+        "iata": "J"
+      },
+      "segmentInfo": {
+        "numberOfStops": 0,
+        "intermediateAirports": {
+          "iata": []
+        }
+      },
+      "oagFingerprint": "7bbdd7c34e85083e3e33179778af984d53a908b64a56a4562a9a0e012f7d880f",
+      "codeshare": {
+        "operatingAirlineDisclosure": {
+          "code": "KL",
+          "name": "",
+          "number": "2"
+        },
+        "aircraftOwner": {
+          "code": "KL",
+          "name": ""
+        },
+        "jointOperationAirlineDesignators": [],
+        "comments010": [],
+        "comment050": {
+          "code": "KL",
+          "serviceNumber": "1001",
+          "suffix": ""
+        }
+      }
+    },
+    {
+      "carrierCode": {
+        "iata": "BA",
+        "icao": "BAW"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 423,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "AMS"
+        },
+        "terminal": "",
+        "date": "2023-04-28",
+        "passengerLocalTime": "07:40"
+      },
+      "arrival": {
+        "airport": {
+          "iata": "LHR"
+        },
+        "terminal": "5",
+        "date": "2023-04-28",
+        "passengerLocalTime": "08:00"
+      },
+      "aircraftType": {
+        "iata": "32A"
+      },
+      "serviceTypeCode": {
+        "iata": "J"
+      },
+      "segmentInfo": {
+        "numberOfStops": 0,
+        "intermediateAirports": {
+          "iata": []
+        }
+      },
+      "oagFingerprint": "30af7cd6931eff729bd24eb7be73e281d2a43d2541bcc2f8244b82fd04be634e",
+      "codeshare": {
+        "jointOperationAirlineDesignators": [],
+        "comments010": [
+          {
+            "code": "JL",
+            "serviceNumber": "7104",
+            "suffix": ""
+          },
+          {
+            "code": "AA",
+            "serviceNumber": "6434",
+            "suffix": ""
+          }
+        ]
+      }
+    },
+    {
+      "carrierCode": {
+        "iata": "JL",
+        "icao": "JAL"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 7104,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "AMS"
+        },
+        "terminal": "",
+        "date": "2023-04-28",
+        "passengerLocalTime": "07:40"
+      },
+      "arrival": {
+        "airport": {
+          "iata": "LHR"
+        },
+        "terminal": "5",
+        "date": "2023-04-28",
+        "passengerLocalTime": "08:00"
+      },
+      "aircraftType": {
+        "iata": "32A"
+      },
+      "serviceTypeCode": {
+        "iata": "J"
+      },
+      "segmentInfo": {
+        "numberOfStops": 0,
+        "intermediateAirports": {
+          "iata": []
+        }
+      },
+      "oagFingerprint": "4e5379a9de73a65d2735f2414690acec8510dfa1e1baa4d8ff4d0f404a180c3f",
+      "codeshare": {
+        "operatingAirlineDisclosure": {
+          "code": "BA",
+          "name": "",
+          "number": "2"
+        },
+        "aircraftOwner": {
+          "code": "BA",
+          "name": ""
+        },
+        "jointOperationAirlineDesignators": [],
+        "comments010": [],
+        "comment050": {
+          "code": "BA",
+          "serviceNumber": "423",
+          "suffix": ""
+        }
+      }
+    },
+    {
+      "carrierCode": {
+        "iata": "AA",
+        "icao": "AAL"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 6434,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "AMS",
+          "icao": "EHAM"
+        },
+        "terminal": "",
+        "date": "2023-04-28",
+        "passengerLocalTime": "07:40"
+      },
+      "arrival": {
+        "airport": {
+          "iata": "LHR",
+          "icao": "EGLL"
+        },
+        "terminal": "5",
+        "date": "2023-04-28",
+        "passengerLocalTime": "08:00"
+      },
+      "aircraftType": {
+        "iata": "320"
+      },
+      "serviceTypeCode": {
+        "iata": "J"
+      },
+      "segmentInfo": {
+        "numberOfStops": 0,
+        "intermediateAirports": {
+          "iata": []
+        }
+      },
+      "oagFingerprint": "f1738bcab3fb5a351597c1f5160be6c599a583707ebf97276f77db613cd9ed42",
+      "codeshare": {
+        "operatingAirlineDisclosure": {
+          "code": "BA",
+          "name": "",
+          "number": "2"
+        },
+        "aircraftOwner": {
+          "code": "BA",
+          "name": ""
+        },
+        "jointOperationAirlineDesignators": [],
+        "comments010": [],
+        "comment050": {
+          "code": "BA",
+          "serviceNumber": "423",
+          "suffix": ""
+        }
+      }
+    },
+    {
+      "carrierCode": {
+        "iata": "MF",
+        "icao": "CXA"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 9303,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "AMS"
+        },
+        "terminal": "",
+        "date": "2023-04-28",
+        "passengerLocalTime": "08:30"
+      },
+      "arrival": {
+        "airport": {
+          "iata": "LHR"
+        },
+        "terminal": "3",
+        "date": "2023-04-28",
+        "passengerLocalTime": "09:00"
+      },
+      "aircraftType": {
+        "iata": "73G"
+      },
+      "serviceTypeCode": {
+        "iata": "J"
+      },
+      "segmentInfo": {
+        "numberOfStops": 0,
+        "intermediateAirports": {
+          "iata": []
+        }
+      },
+      "oagFingerprint": "49d9d13321dfa25d3b2872505a3720cc9489b4e3760173c0e6f70f8e3dc77ba4",
+      "codeshare": {
+        "operatingAirlineDisclosure": {
+          "code": "KL",
+          "name": "",
+          "number": "2"
+        },
+        "aircraftOwner": {
+          "code": "KL",
+          "name": ""
+        },
+        "jointOperationAirlineDesignators": [],
+        "comments010": [],
+        "comment050": {
+          "code": "KL",
+          "serviceNumber": "1007",
+          "suffix": ""
+        }
+      }
+    },
+    {
+      "carrierCode": {
+        "iata": "CZ",
+        "icao": "CSN"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 7658,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "AMS",
+          "icao": "EHAM"
+        },
+        "terminal": "",
+        "date": "2023-04-28",
+        "passengerLocalTime": "08:30"
+      },
+      "arrival": {
+        "airport": {
+          "iata": "LHR",
+          "icao": "EGLL"
+        },
+        "terminal": "4",
+        "date": "2023-04-28",
+        "passengerLocalTime": "09:00"
+      },
+      "aircraftType": {
+        "iata": "73H"
+      },
+      "serviceTypeCode": {
+        "iata": "J"
+      },
+      "segmentInfo": {
+        "numberOfStops": 0,
+        "intermediateAirports": {
+          "iata": []
+        }
+      },
+      "oagFingerprint": "8d8b19ec5ef454e387a505d77a018630e5ec2d8b65666d8e0a6eaee0a94d0e03",
+      "codeshare": {
+        "operatingAirlineDisclosure": {
+          "code": "KL",
+          "name": "",
+          "number": "2"
+        },
+        "aircraftOwner": {
+          "code": "KL",
+          "name": ""
+        },
+        "jointOperationAirlineDesignators": [],
+        "comments010": [],
+        "comment050": {
+          "code": "KL",
+          "serviceNumber": "1007",
+          "suffix": ""
+        }
+      }
+    },
+    {
+      "carrierCode": {
+        "iata": "DL",
+        "icao": "DAL"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 9641,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "AMS",
+          "icao": "EHAM"
+        },
+        "terminal": "",
+        "date": "2023-04-28",
+        "passengerLocalTime": "08:30"
+      },
+      "arrival": {
+        "airport": {
+          "iata": "LHR",
+          "icao": "EGLL"
+        },
+        "terminal": "4",
+        "date": "2023-04-28",
+        "passengerLocalTime": "09:00"
+      },
+      "aircraftType": {
+        "iata": "73H"
+      },
+      "serviceTypeCode": {
+        "iata": "J"
+      },
+      "segmentInfo": {
+        "numberOfStops": 0,
+        "intermediateAirports": {
+          "iata": []
+        }
+      },
+      "oagFingerprint": "652a2be42232fdc1e512ab235bb6e5987d0bcdf6a0348e830b36c16f6fc0b86d",
+      "codeshare": {
+        "operatingAirlineDisclosure": {
+          "code": "KL",
+          "name": "",
+          "number": "2"
+        },
+        "aircraftOwner": {
+          "code": "KL",
+          "name": ""
+        },
+        "jointOperationAirlineDesignators": [],
+        "comments010": [],
+        "comment050": {
+          "code": "KL",
+          "serviceNumber": "1007",
+          "suffix": ""
+        }
+      }
+    },
+    {
+      "carrierCode": {
+        "iata": "KL",
+        "icao": "KLM"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 1007,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "AMS",
+          "icao": "EHAM"
+        },
+        "terminal": "",
+        "date": "2023-04-28",
+        "passengerLocalTime": "08:30"
+      },
+      "arrival": {
+        "airport": {
+          "iata": "LHR",
+          "icao": "EGLL"
+        },
+        "terminal": "4",
+        "date": "2023-04-28",
+        "passengerLocalTime": "09:00"
+      },
+      "aircraftType": {
+        "iata": "73H"
+      },
+      "serviceTypeCode": {
+        "iata": "J"
+      },
+      "segmentInfo": {
+        "numberOfStops": 0,
+        "intermediateAirports": {
+          "iata": []
+        }
+      },
+      "oagFingerprint": "62e9f8ad3082c1e1cb745d79e519785b05177aebcaadfb360f9efdecae2c768e",
+      "codeshare": {
+        "jointOperationAirlineDesignators": [],
+        "comments010": [
+          {
+            "code": "CZ",
+            "serviceNumber": "7658",
+            "suffix": ""
+          },
+          {
+            "code": "DL",
+            "serviceNumber": "9641",
+            "suffix": ""
+          },
+          {
+            "code": "GA",
+            "serviceNumber": "9954",
+            "suffix": ""
+          },
+          {
+            "code": "KQ",
+            "serviceNumber": "1007",
+            "suffix": ""
+          },
+          {
+            "code": "MF",
+            "serviceNumber": "9303",
+            "suffix": ""
+          },
+          {
+            "code": "VS",
+            "serviceNumber": "6993",
+            "suffix": ""
+          }
+        ]
+      }
+    },
+    {
+      "carrierCode": {
+        "iata": "VS",
+        "icao": "VIR"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 6993,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "AMS",
+          "icao": "EHAM"
+        },
+        "terminal": "",
+        "date": "2023-04-28",
+        "passengerLocalTime": "08:30"
+      },
+      "arrival": {
+        "airport": {
+          "iata": "LHR",
+          "icao": "EGLL"
+        },
+        "terminal": "4",
+        "date": "2023-04-28",
+        "passengerLocalTime": "09:00"
+      },
+      "aircraftType": {
+        "iata": "73H"
+      },
+      "serviceTypeCode": {
+        "iata": "J"
+      },
+      "segmentInfo": {
+        "numberOfStops": 0,
+        "intermediateAirports": {
+          "iata": []
+        }
+      },
+      "oagFingerprint": "eaeb466bb89bd26852c86e7c66a76c86c09762a3cb6cbf1ac8f454547831d42e",
+      "codeshare": {
+        "operatingAirlineDisclosure": {
+          "code": "KL",
+          "name": "",
+          "number": "2"
+        },
+        "aircraftOwner": {
+          "code": "KL",
+          "name": ""
+        },
+        "jointOperationAirlineDesignators": [],
+        "comments010": [],
+        "comment050": {
+          "code": "KL",
+          "serviceNumber": "1007",
+          "suffix": ""
+        }
+      }
+    },
+    {
+      "carrierCode": {
+        "iata": "KQ",
+        "icao": "KQA"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 1007,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "AMS",
+          "icao": "EHAM"
+        },
+        "terminal": "",
+        "date": "2023-04-28",
+        "passengerLocalTime": "08:30"
+      },
+      "arrival": {
+        "airport": {
+          "iata": "LHR",
+          "icao": "EGLL"
+        },
+        "terminal": "4",
+        "date": "2023-04-28",
+        "passengerLocalTime": "09:00"
+      },
+      "aircraftType": {
+        "iata": "737"
+      },
+      "serviceTypeCode": {
+        "iata": "J"
+      },
+      "segmentInfo": {
+        "numberOfStops": 0,
+        "intermediateAirports": {
+          "iata": []
+        }
+      },
+      "oagFingerprint": "6883b9194da18c38af68a94b66cf4c8ef1425d9bbe584c25e828a0a37f523753",
+      "codeshare": {
+        "operatingAirlineDisclosure": {
+          "code": "KL",
+          "name": "",
+          "number": "2"
+        },
+        "aircraftOwner": {
+          "code": "KL",
+          "name": ""
+        },
+        "jointOperationAirlineDesignators": [],
+        "comments010": [],
+        "comment050": {
+          "code": "KL",
+          "serviceNumber": "1007",
+          "suffix": ""
+        }
+      }
+    },
+    {
+      "carrierCode": {
+        "iata": "BA",
+        "icao": "BAW"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 429,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "AMS",
+          "icao": "EHAM"
+        },
+        "terminal": "",
+        "date": "2023-04-28",
+        "passengerLocalTime": "10:00"
+      },
+      "arrival": {
+        "airport": {
+          "iata": "LHR",
+          "icao": "EGLL"
+        },
+        "terminal": "5",
+        "date": "2023-04-28",
+        "passengerLocalTime": "10:20"
+      },
+      "aircraftType": {
+        "iata": "32N"
+      },
+      "serviceTypeCode": {
+        "iata": "J"
+      },
+      "segmentInfo": {
+        "numberOfStops": 0,
+        "intermediateAirports": {
+          "iata": []
+        }
+      },
+      "oagFingerprint": "a8ccfd79c6bcc0e618916c5d92917bd3e226e68c23071322878a2e55113ef451",
+      "codeshare": {
+        "jointOperationAirlineDesignators": [],
+        "comments010": [
+          {
+            "code": "AA",
+            "serviceNumber": "6435",
+            "suffix": ""
+          }
+        ]
+      }
+    },
+    {
+      "carrierCode": {
+        "iata": "AA",
+        "icao": "AAL"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 6435,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "AMS",
+          "icao": "EHAM"
+        },
+        "terminal": "",
+        "date": "2023-04-28",
+        "passengerLocalTime": "10:00"
+      },
+      "arrival": {
+        "airport": {
+          "iata": "LHR",
+          "icao": "EGLL"
+        },
+        "terminal": "5",
+        "date": "2023-04-28",
+        "passengerLocalTime": "10:20"
+      },
+      "aircraftType": {
+        "iata": "320"
+      },
+      "serviceTypeCode": {
+        "iata": "J"
+      },
+      "segmentInfo": {
+        "numberOfStops": 0,
+        "intermediateAirports": {
+          "iata": []
+        }
+      },
+      "oagFingerprint": "0b703169f8f5ab2c2e1453e6be41d152c63936e93e3c8382bb66696e88592adc",
+      "codeshare": {
+        "operatingAirlineDisclosure": {
+          "code": "BA",
+          "name": "",
+          "number": "2"
+        },
+        "aircraftOwner": {
+          "code": "BA",
+          "name": ""
+        },
+        "jointOperationAirlineDesignators": [],
+        "comments010": [],
+        "comment050": {
+          "code": "BA",
+          "serviceNumber": "429",
+          "suffix": ""
+        }
+      }
+    },
+    {
+      "carrierCode": {
+        "iata": "CI",
+        "icao": "CAL"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 9365,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "AMS"
+        },
+        "terminal": "",
+        "date": "2023-04-28",
+        "passengerLocalTime": "10:15"
+      },
+      "arrival": {
+        "airport": {
+          "iata": "LHR"
+        },
+        "terminal": "3",
+        "date": "2023-04-28",
+        "passengerLocalTime": "10:45"
+      },
+      "aircraftType": {
+        "iata": "73H"
+      },
+      "serviceTypeCode": {
+        "iata": "J"
+      },
+      "segmentInfo": {
+        "numberOfStops": 0,
+        "intermediateAirports": {
+          "iata": []
+        }
+      },
+      "oagFingerprint": "3e70cf4a7f99001f04f424a495dc9ef445e1f043dc16d0700650f15cca4bfa4c",
+      "codeshare": {
+        "operatingAirlineDisclosure": {
+          "code": "KL",
+          "name": "",
+          "number": "2"
+        },
+        "aircraftOwner": {
+          "code": "KL",
+          "name": ""
+        },
+        "jointOperationAirlineDesignators": [],
+        "comments010": [],
+        "comment050": {
+          "code": "KL",
+          "serviceNumber": "1009",
+          "suffix": ""
+        }
+      }
+    },
+    {
+      "carrierCode": {
+        "iata": "MF",
+        "icao": "CXA"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 9305,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "AMS"
+        },
+        "terminal": "",
+        "date": "2023-04-28",
+        "passengerLocalTime": "10:15"
+      },
+      "arrival": {
+        "airport": {
+          "iata": "LHR"
+        },
+        "terminal": "3",
+        "date": "2023-04-28",
+        "passengerLocalTime": "10:45"
+      },
+      "aircraftType": {
+        "iata": "73G"
+      },
+      "serviceTypeCode": {
+        "iata": "J"
+      },
+      "segmentInfo": {
+        "numberOfStops": 0,
+        "intermediateAirports": {
+          "iata": []
+        }
+      },
+      "oagFingerprint": "2a952f79b1882b7ee589c095700555799f1f6c8610a110a5190b2a11cdb06445",
+      "codeshare": {
+        "operatingAirlineDisclosure": {
+          "code": "KL",
+          "name": "",
+          "number": "2"
+        },
+        "aircraftOwner": {
+          "code": "KL",
+          "name": ""
+        },
+        "jointOperationAirlineDesignators": [],
+        "comments010": [],
+        "comment050": {
+          "code": "KL",
+          "serviceNumber": "1009",
+          "suffix": ""
+        }
+      }
+    },
+    {
+      "carrierCode": {
+        "iata": "CZ",
+        "icao": "CSN"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 7659,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "AMS",
+          "icao": "EHAM"
+        },
+        "terminal": "",
+        "date": "2023-04-28",
+        "passengerLocalTime": "10:15"
+      },
+      "arrival": {
+        "airport": {
+          "iata": "LHR",
+          "icao": "EGLL"
+        },
+        "terminal": "4",
+        "date": "2023-04-28",
+        "passengerLocalTime": "10:45"
+      },
+      "aircraftType": {
+        "iata": "73H"
+      },
+      "serviceTypeCode": {
+        "iata": "J"
+      },
+      "segmentInfo": {
+        "numberOfStops": 0,
+        "intermediateAirports": {
+          "iata": []
+        }
+      },
+      "oagFingerprint": "72712c9f94273a54270b59aa40c5e42540cd6960c391f8e5b03a7a4c44dcfbe0",
+      "codeshare": {
+        "operatingAirlineDisclosure": {
+          "code": "KL",
+          "name": "",
+          "number": "2"
+        },
+        "aircraftOwner": {
+          "code": "KL",
+          "name": ""
+        },
+        "jointOperationAirlineDesignators": [],
+        "comments010": [],
+        "comment050": {
+          "code": "KL",
+          "serviceNumber": "1009",
+          "suffix": ""
+        }
+      }
+    },
+    {
+      "carrierCode": {
+        "iata": "DL",
+        "icao": "DAL"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 9642,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "AMS",
+          "icao": "EHAM"
+        },
+        "terminal": "",
+        "date": "2023-04-28",
+        "passengerLocalTime": "10:15"
+      },
+      "arrival": {
+        "airport": {
+          "iata": "LHR",
+          "icao": "EGLL"
+        },
+        "terminal": "4",
+        "date": "2023-04-28",
+        "passengerLocalTime": "10:45"
+      },
+      "aircraftType": {
+        "iata": "73H"
+      },
+      "serviceTypeCode": {
+        "iata": "J"
+      },
+      "segmentInfo": {
+        "numberOfStops": 0,
+        "intermediateAirports": {
+          "iata": []
+        }
+      },
+      "oagFingerprint": "05bb8524573185b7efff0d2fca378317de2b86f61dc0205dded2d331fc275669",
+      "codeshare": {
+        "operatingAirlineDisclosure": {
+          "code": "KL",
+          "name": "",
+          "number": "2"
+        },
+        "aircraftOwner": {
+          "code": "KL",
+          "name": ""
+        },
+        "jointOperationAirlineDesignators": [],
+        "comments010": [],
+        "comment050": {
+          "code": "KL",
+          "serviceNumber": "1009",
+          "suffix": ""
+        }
+      }
+    },
+    {
+      "carrierCode": {
+        "iata": "KL",
+        "icao": "KLM"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 1009,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "AMS",
+          "icao": "EHAM"
+        },
+        "terminal": "",
+        "date": "2023-04-28",
+        "passengerLocalTime": "10:15"
+      },
+      "arrival": {
+        "airport": {
+          "iata": "LHR",
+          "icao": "EGLL"
+        },
+        "terminal": "4",
+        "date": "2023-04-28",
+        "passengerLocalTime": "10:45"
+      },
+      "aircraftType": {
+        "iata": "73H"
+      },
+      "serviceTypeCode": {
+        "iata": "J"
+      },
+      "segmentInfo": {
+        "numberOfStops": 0,
+        "intermediateAirports": {
+          "iata": []
+        }
+      },
+      "oagFingerprint": "f963e95eab91def43ead5e58befb92d4c90f950c3e6ba139bfa1888a175d8d91",
+      "codeshare": {
+        "jointOperationAirlineDesignators": [],
+        "comments010": [
+          {
+            "code": "CI",
+            "serviceNumber": "9365",
+            "suffix": ""
+          },
+          {
+            "code": "CZ",
+            "serviceNumber": "7659",
+            "suffix": ""
+          },
+          {
+            "code": "DL",
+            "serviceNumber": "9642",
+            "suffix": ""
+          },
+          {
+            "code": "GA",
+            "serviceNumber": "9490",
+            "suffix": ""
+          },
+          {
+            "code": "KC",
+            "serviceNumber": "1413",
+            "suffix": ""
+          },
+          {
+            "code": "KQ",
+            "serviceNumber": "1009",
+            "suffix": ""
+          },
+          {
+            "code": "MF",
+            "serviceNumber": "9305",
+            "suffix": ""
+          },
+          {
+            "code": "VS",
+            "serviceNumber": "6994",
+            "suffix": ""
+          }
+        ]
+      }
+    },
+    {
+      "carrierCode": {
+        "iata": "KC",
+        "icao": "KZR"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 1413,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "AMS",
+          "icao": "EHAM"
+        },
+        "terminal": "",
+        "date": "2023-04-28",
+        "passengerLocalTime": "10:15"
+      },
+      "arrival": {
+        "airport": {
+          "iata": "LHR",
+          "icao": "EGLL"
+        },
+        "terminal": "4",
+        "date": "2023-04-28",
+        "passengerLocalTime": "10:45"
+      },
+      "aircraftType": {
+        "iata": "73H"
+      },
+      "serviceTypeCode": {
+        "iata": "J"
+      },
+      "segmentInfo": {
+        "numberOfStops": 0,
+        "intermediateAirports": {
+          "iata": []
+        }
+      },
+      "oagFingerprint": "9844c4fea8dfe9663a24d18dde9d2a87daf044f69ea915c0650413ae892e920a",
+      "codeshare": {
+        "operatingAirlineDisclosure": {
+          "code": "KL",
+          "name": "",
+          "number": "2"
+        },
+        "aircraftOwner": {
+          "code": "KL",
+          "name": ""
+        },
+        "jointOperationAirlineDesignators": [],
+        "comments010": [],
+        "comment050": {
+          "code": "KL",
+          "serviceNumber": "1009",
+          "suffix": ""
+        }
+      }
+    },
+    {
+      "carrierCode": {
+        "iata": "GA",
+        "icao": "GIA"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 9490,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "AMS",
+          "icao": "EHAM"
+        },
+        "terminal": "",
+        "date": "2023-04-28",
+        "passengerLocalTime": "10:15"
+      },
+      "arrival": {
+        "airport": {
+          "iata": "LHR",
+          "icao": "EGLL"
+        },
+        "terminal": "4",
+        "date": "2023-04-28",
+        "passengerLocalTime": "10:45"
+      },
+      "aircraftType": {
+        "iata": "73H"
+      },
+      "serviceTypeCode": {
+        "iata": "J"
+      },
+      "segmentInfo": {
+        "numberOfStops": 0,
+        "intermediateAirports": {
+          "iata": []
+        }
+      },
+      "oagFingerprint": "e5cc4629eaea38849e7840de081d47e50a948f13f8e817e599f782d96dfb1976",
+      "codeshare": {
+        "operatingAirlineDisclosure": {
+          "code": "KL",
+          "name": "",
+          "number": "2"
+        },
+        "aircraftOwner": {
+          "code": "KL",
+          "name": ""
+        },
+        "jointOperationAirlineDesignators": [],
+        "comments010": [],
+        "comment050": {
+          "code": "KL",
+          "serviceNumber": "1009",
+          "suffix": ""
+        }
+      }
+    },
+    {
+      "carrierCode": {
+        "iata": "VS",
+        "icao": "VIR"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 6994,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "AMS",
+          "icao": "EHAM"
+        },
+        "terminal": "",
+        "date": "2023-04-28",
+        "passengerLocalTime": "10:15"
+      },
+      "arrival": {
+        "airport": {
+          "iata": "LHR",
+          "icao": "EGLL"
+        },
+        "terminal": "4",
+        "date": "2023-04-28",
+        "passengerLocalTime": "10:45"
+      },
+      "aircraftType": {
+        "iata": "73H"
+      },
+      "serviceTypeCode": {
+        "iata": "J"
+      },
+      "segmentInfo": {
+        "numberOfStops": 0,
+        "intermediateAirports": {
+          "iata": []
+        }
+      },
+      "oagFingerprint": "e36e2ae7d59c5fad4093117e3681d73860bcfb052e3d84c787e3da5345c39a05",
+      "codeshare": {
+        "operatingAirlineDisclosure": {
+          "code": "KL",
+          "name": "",
+          "number": "2"
+        },
+        "aircraftOwner": {
+          "code": "KL",
+          "name": ""
+        },
+        "jointOperationAirlineDesignators": [],
+        "comments010": [],
+        "comment050": {
+          "code": "KL",
+          "serviceNumber": "1009",
+          "suffix": ""
+        }
+      }
+    },
+    {
+      "carrierCode": {
+        "iata": "BA",
+        "icao": "BAW"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 437,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "AMS",
+          "icao": "EHAM"
+        },
+        "terminal": "",
+        "date": "2023-04-28",
+        "passengerLocalTime": "10:50"
+      },
+      "arrival": {
+        "airport": {
+          "iata": "LHR",
+          "icao": "EGLL"
+        },
+        "terminal": "5",
+        "date": "2023-04-28",
+        "passengerLocalTime": "11:10"
+      },
+      "aircraftType": {
+        "iata": "321"
+      },
+      "serviceTypeCode": {
+        "iata": "J"
+      },
+      "segmentInfo": {
+        "numberOfStops": 0,
+        "intermediateAirports": {
+          "iata": []
+        }
+      },
+      "oagFingerprint": "ba4a9b93007472ebdbc4156ef4b62c9dd479acaa6dab0b5c7b9195d57a0193ef",
+      "codeshare": {
+        "jointOperationAirlineDesignators": [],
+        "comments010": [
+          {
+            "code": "AA",
+            "serviceNumber": "6593",
+            "suffix": ""
+          }
+        ]
+      }
+    },
+    {
+      "carrierCode": {
+        "iata": "AA",
+        "icao": "AAL"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 6593,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "AMS",
+          "icao": "EHAM"
+        },
+        "terminal": "",
+        "date": "2023-04-28",
+        "passengerLocalTime": "10:50"
+      },
+      "arrival": {
+        "airport": {
+          "iata": "LHR",
+          "icao": "EGLL"
+        },
+        "terminal": "5",
+        "date": "2023-04-28",
+        "passengerLocalTime": "11:10"
+      },
+      "aircraftType": {
+        "iata": "321"
+      },
+      "serviceTypeCode": {
+        "iata": "J"
+      },
+      "segmentInfo": {
+        "numberOfStops": 0,
+        "intermediateAirports": {
+          "iata": []
+        }
+      },
+      "oagFingerprint": "3ccc516c7d3814e5bea429c51c2ca9b5e79dc02fd8ad9da876aa53bbfd337e4e",
+      "codeshare": {
+        "operatingAirlineDisclosure": {
+          "code": "BA",
+          "name": "",
+          "number": "2"
+        },
+        "aircraftOwner": {
+          "code": "BA",
+          "name": ""
+        },
+        "jointOperationAirlineDesignators": [],
+        "comments010": [],
+        "comment050": {
+          "code": "BA",
+          "serviceNumber": "437",
+          "suffix": ""
+        }
+      }
+    },
+    {
+      "carrierCode": {
+        "iata": "KQ",
+        "icao": "KQA"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 1009,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "AMS",
+          "icao": "EHAM"
+        },
+        "terminal": "",
+        "date": "2023-04-28",
+        "passengerLocalTime": "11:20"
+      },
+      "arrival": {
+        "airport": {
+          "iata": "LHR",
+          "icao": "EGLL"
+        },
+        "terminal": "3",
+        "date": "2023-04-28",
+        "passengerLocalTime": "11:45"
+      },
+      "aircraftType": {
+        "iata": "737"
+      },
+      "serviceTypeCode": {
+        "iata": "J"
+      },
+      "segmentInfo": {
+        "numberOfStops": 0,
+        "intermediateAirports": {
+          "iata": []
+        }
+      },
+      "oagFingerprint": "438392ad172a83d7da8f090449c681aed9aa48ed669068e689fdf7035a072bc1",
+      "codeshare": {
+        "operatingAirlineDisclosure": {
+          "code": "KL",
+          "name": "",
+          "number": "2"
+        },
+        "aircraftOwner": {
+          "code": "KL",
+          "name": ""
+        },
+        "jointOperationAirlineDesignators": [],
+        "comments010": [],
+        "comment050": {
+          "code": "KL",
+          "serviceNumber": "1009",
+          "suffix": ""
+        }
+      }
+    },
+    {
+      "carrierCode": {
+        "iata": "BA",
+        "icao": "BAW"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 431,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "AMS",
+          "icao": "EHAM"
+        },
+        "terminal": "",
+        "date": "2023-04-28",
+        "passengerLocalTime": "11:40"
+      },
+      "arrival": {
+        "airport": {
+          "iata": "LHR",
+          "icao": "EGLL"
+        },
+        "terminal": "5",
+        "date": "2023-04-28",
+        "passengerLocalTime": "12:00"
+      },
+      "aircraftType": {
+        "iata": "320"
+      },
+      "serviceTypeCode": {
+        "iata": "J"
+      },
+      "segmentInfo": {
+        "numberOfStops": 0,
+        "intermediateAirports": {
+          "iata": []
+        }
+      },
+      "oagFingerprint": "961342cc7bb04c53e35038508a6960cfaf65efee43e3e7ee6a39e0197d9024bc",
+      "codeshare": {
+        "jointOperationAirlineDesignators": [],
+        "comments010": [
+          {
+            "code": "AA",
+            "serviceNumber": "6443",
+            "suffix": ""
+          },
+          {
+            "code": "JL",
+            "serviceNumber": "6516",
+            "suffix": ""
+          }
+        ]
+      }
+    },
+    {
+      "carrierCode": {
+        "iata": "JL",
+        "icao": "JAL"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 6516,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "AMS",
+          "icao": "EHAM"
+        },
+        "terminal": "",
+        "date": "2023-04-28",
+        "passengerLocalTime": "11:40"
+      },
+      "arrival": {
+        "airport": {
+          "iata": "LHR",
+          "icao": "EGLL"
+        },
+        "terminal": "5",
+        "date": "2023-04-28",
+        "passengerLocalTime": "12:00"
+      },
+      "aircraftType": {
+        "iata": "320"
+      },
+      "serviceTypeCode": {
+        "iata": "J"
+      },
+      "segmentInfo": {
+        "numberOfStops": 0,
+        "intermediateAirports": {
+          "iata": []
+        }
+      },
+      "oagFingerprint": "138304a0e365e3cf8136439198fe898d3554fa213179d2c57144d71d192edb5c",
+      "codeshare": {
+        "operatingAirlineDisclosure": {
+          "code": "BA",
+          "name": "",
+          "number": "2"
+        },
+        "aircraftOwner": {
+          "code": "BA",
+          "name": ""
+        },
+        "jointOperationAirlineDesignators": [],
+        "comments010": [],
+        "comment050": {
+          "code": "BA",
+          "serviceNumber": "431",
+          "suffix": ""
+        }
+      }
+    },
+    {
+      "carrierCode": {
+        "iata": "AA",
+        "icao": "AAL"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 6443,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "AMS",
+          "icao": "EHAM"
+        },
+        "terminal": "",
+        "date": "2023-04-28",
+        "passengerLocalTime": "11:40"
+      },
+      "arrival": {
+        "airport": {
+          "iata": "LHR",
+          "icao": "EGLL"
+        },
+        "terminal": "5",
+        "date": "2023-04-28",
+        "passengerLocalTime": "12:00"
+      },
+      "aircraftType": {
+        "iata": "320"
+      },
+      "serviceTypeCode": {
+        "iata": "J"
+      },
+      "segmentInfo": {
+        "numberOfStops": 0,
+        "intermediateAirports": {
+          "iata": []
+        }
+      },
+      "oagFingerprint": "53c0bfd09575bd5edab36821c0db5f7309fa6792387a7554df65cdd8cf413bb0",
+      "codeshare": {
+        "operatingAirlineDisclosure": {
+          "code": "BA",
+          "name": "",
+          "number": "2"
+        },
+        "aircraftOwner": {
+          "code": "BA",
+          "name": ""
+        },
+        "jointOperationAirlineDesignators": [],
+        "comments010": [],
+        "comment050": {
+          "code": "BA",
+          "serviceNumber": "431",
+          "suffix": ""
+        }
+      }
+    },
+    {
+      "carrierCode": {
+        "iata": "MF",
+        "icao": "CXA"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 9651,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "AMS"
+        },
+        "terminal": "",
+        "date": "2023-04-28",
+        "passengerLocalTime": "13:20"
+      },
+      "arrival": {
+        "airport": {
+          "iata": "LHR"
+        },
+        "terminal": "3",
+        "date": "2023-04-28",
+        "passengerLocalTime": "13:50"
+      },
+      "aircraftType": {
+        "iata": "73G"
+      },
+      "serviceTypeCode": {
+        "iata": "J"
+      },
+      "segmentInfo": {
+        "numberOfStops": 0,
+        "intermediateAirports": {
+          "iata": []
+        }
+      },
+      "oagFingerprint": "8d9f939cee06f8f162c17b3cea4c4048cce365b1335a508565695c4fde427a1e",
+      "codeshare": {
+        "operatingAirlineDisclosure": {
+          "code": "KL",
+          "name": "",
+          "number": "2"
+        },
+        "aircraftOwner": {
+          "code": "KL",
+          "name": ""
+        },
+        "jointOperationAirlineDesignators": [],
+        "comments010": [],
+        "comment050": {
+          "code": "KL",
+          "serviceNumber": "1017",
+          "suffix": ""
+        }
+      }
+    },
+    {
+      "carrierCode": {
+        "iata": "CI",
+        "icao": "CAL"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 9363,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "AMS"
+        },
+        "terminal": "",
+        "date": "2023-04-28",
+        "passengerLocalTime": "13:20"
+      },
+      "arrival": {
+        "airport": {
+          "iata": "LHR"
+        },
+        "terminal": "3",
+        "date": "2023-04-28",
+        "passengerLocalTime": "13:50"
+      },
+      "aircraftType": {
+        "iata": "73H"
+      },
+      "serviceTypeCode": {
+        "iata": "J"
+      },
+      "segmentInfo": {
+        "numberOfStops": 0,
+        "intermediateAirports": {
+          "iata": []
+        }
+      },
+      "oagFingerprint": "67d10f8143bd0fd24f12e4d1b7394690f4d98f60040edace0a68da0caf4a20bb",
+      "codeshare": {
+        "operatingAirlineDisclosure": {
+          "code": "KL",
+          "name": "",
+          "number": "2"
+        },
+        "aircraftOwner": {
+          "code": "KL",
+          "name": ""
+        },
+        "jointOperationAirlineDesignators": [],
+        "comments010": [],
+        "comment050": {
+          "code": "KL",
+          "serviceNumber": "1017",
+          "suffix": ""
+        }
+      }
+    },
+    {
+      "carrierCode": {
+        "iata": "GA",
+        "icao": "GIA"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 9081,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "AMS",
+          "icao": "EHAM"
+        },
+        "terminal": "",
+        "date": "2023-04-28",
+        "passengerLocalTime": "13:20"
+      },
+      "arrival": {
+        "airport": {
+          "iata": "LHR",
+          "icao": "EGLL"
+        },
+        "terminal": "4",
+        "date": "2023-04-28",
+        "passengerLocalTime": "13:50"
+      },
+      "aircraftType": {
+        "iata": "73H"
+      },
+      "serviceTypeCode": {
+        "iata": "J"
+      },
+      "segmentInfo": {
+        "numberOfStops": 0,
+        "intermediateAirports": {
+          "iata": []
+        }
+      },
+      "oagFingerprint": "d7225670c8f08f278d4f8506f933cc757ce4916bec47d4b1743956ea80b58bbb",
+      "codeshare": {
+        "operatingAirlineDisclosure": {
+          "code": "KL",
+          "name": "",
+          "number": "2"
+        },
+        "aircraftOwner": {
+          "code": "KL",
+          "name": ""
+        },
+        "jointOperationAirlineDesignators": [],
+        "comments010": [],
+        "comment050": {
+          "code": "KL",
+          "serviceNumber": "1017",
+          "suffix": ""
+        }
+      }
+    },
+    {
+      "carrierCode": {
+        "iata": "G3",
+        "icao": "GLO"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 5516,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "AMS",
+          "icao": "EHAM"
+        },
+        "terminal": "",
+        "date": "2023-04-28",
+        "passengerLocalTime": "13:20"
+      },
+      "arrival": {
+        "airport": {
+          "iata": "LHR",
+          "icao": "EGLL"
+        },
+        "terminal": "4",
+        "date": "2023-04-28",
+        "passengerLocalTime": "13:50"
+      },
+      "aircraftType": {
+        "iata": "73H"
+      },
+      "serviceTypeCode": {
+        "iata": "J"
+      },
+      "segmentInfo": {
+        "numberOfStops": 0,
+        "intermediateAirports": {
+          "iata": []
+        }
+      },
+      "oagFingerprint": "a903708a4a38c6421b58e4621168d0d7203c37f9a167d11ba567c68ac9df50ab",
+      "codeshare": {
+        "operatingAirlineDisclosure": {
+          "code": "KL",
+          "name": "",
+          "number": "2"
+        },
+        "aircraftOwner": {
+          "code": "KL",
+          "name": ""
+        },
+        "jointOperationAirlineDesignators": [],
+        "comments010": [],
+        "comment050": {
+          "code": "KL",
+          "serviceNumber": "1017",
+          "suffix": ""
+        }
+      }
+    },
+    {
+      "carrierCode": {
+        "iata": "CZ",
+        "icao": "CSN"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 1363,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "AMS",
+          "icao": "EHAM"
+        },
+        "terminal": "",
+        "date": "2023-04-28",
+        "passengerLocalTime": "13:20"
+      },
+      "arrival": {
+        "airport": {
+          "iata": "LHR",
+          "icao": "EGLL"
+        },
+        "terminal": "4",
+        "date": "2023-04-28",
+        "passengerLocalTime": "13:50"
+      },
+      "aircraftType": {
+        "iata": "73H"
+      },
+      "serviceTypeCode": {
+        "iata": "J"
+      },
+      "segmentInfo": {
+        "numberOfStops": 0,
+        "intermediateAirports": {
+          "iata": []
+        }
+      },
+      "oagFingerprint": "6db95346e6383c7bd33edee330b6504c5ba1bebd562d5f86ea36acd83b5f7aa2",
+      "codeshare": {
+        "operatingAirlineDisclosure": {
+          "code": "KL",
+          "name": "",
+          "number": "2"
+        },
+        "aircraftOwner": {
+          "code": "KL",
+          "name": ""
+        },
+        "jointOperationAirlineDesignators": [],
+        "comments010": [],
+        "comment050": {
+          "code": "KL",
+          "serviceNumber": "1017",
+          "suffix": ""
+        }
+      }
+    },
+    {
+      "carrierCode": {
+        "iata": "DL",
+        "icao": "DAL"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 9644,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "AMS",
+          "icao": "EHAM"
+        },
+        "terminal": "",
+        "date": "2023-04-28",
+        "passengerLocalTime": "13:20"
+      },
+      "arrival": {
+        "airport": {
+          "iata": "LHR",
+          "icao": "EGLL"
+        },
+        "terminal": "4",
+        "date": "2023-04-28",
+        "passengerLocalTime": "13:50"
+      },
+      "aircraftType": {
+        "iata": "73H"
+      },
+      "serviceTypeCode": {
+        "iata": "J"
+      },
+      "segmentInfo": {
+        "numberOfStops": 0,
+        "intermediateAirports": {
+          "iata": []
+        }
+      },
+      "oagFingerprint": "30014c837f0b99fbb1a49e2c85f3b36c3581b0eef1e727495b7406d9e0316fd1",
+      "codeshare": {
+        "operatingAirlineDisclosure": {
+          "code": "KL",
+          "name": "",
+          "number": "2"
+        },
+        "aircraftOwner": {
+          "code": "KL",
+          "name": ""
+        },
+        "jointOperationAirlineDesignators": [],
+        "comments010": [],
+        "comment050": {
+          "code": "KL",
+          "serviceNumber": "1017",
+          "suffix": ""
+        }
+      }
+    },
+    {
+      "carrierCode": {
+        "iata": "KL",
+        "icao": "KLM"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 1017,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "AMS",
+          "icao": "EHAM"
+        },
+        "terminal": "",
+        "date": "2023-04-28",
+        "passengerLocalTime": "13:20"
+      },
+      "arrival": {
+        "airport": {
+          "iata": "LHR",
+          "icao": "EGLL"
+        },
+        "terminal": "4",
+        "date": "2023-04-28",
+        "passengerLocalTime": "13:50"
+      },
+      "aircraftType": {
+        "iata": "73H"
+      },
+      "serviceTypeCode": {
+        "iata": "J"
+      },
+      "segmentInfo": {
+        "numberOfStops": 0,
+        "intermediateAirports": {
+          "iata": []
+        }
+      },
+      "oagFingerprint": "d71715190b3e750030d174b808c44851472abe5ecac55076637ab32e4077e4fe",
+      "codeshare": {
+        "jointOperationAirlineDesignators": [],
+        "comments010": [
+          {
+            "code": "CI",
+            "serviceNumber": "9363",
+            "suffix": ""
+          },
+          {
+            "code": "CZ",
+            "serviceNumber": "1363",
+            "suffix": ""
+          },
+          {
+            "code": "DL",
+            "serviceNumber": "9644",
+            "suffix": ""
+          },
+          {
+            "code": "GA",
+            "serviceNumber": "9081",
+            "suffix": ""
+          },
+          {
+            "code": "G3",
+            "serviceNumber": "5516",
+            "suffix": ""
+          },
+          {
+            "code": "MF",
+            "serviceNumber": "9651",
+            "suffix": ""
+          },
+          {
+            "code": "VS",
+            "serviceNumber": "6996",
+            "suffix": ""
+          }
+        ]
+      }
+    },
+    {
+      "carrierCode": {
+        "iata": "VS",
+        "icao": "VIR"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 6996,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "AMS",
+          "icao": "EHAM"
+        },
+        "terminal": "",
+        "date": "2023-04-28",
+        "passengerLocalTime": "13:20"
+      },
+      "arrival": {
+        "airport": {
+          "iata": "LHR",
+          "icao": "EGLL"
+        },
+        "terminal": "4",
+        "date": "2023-04-28",
+        "passengerLocalTime": "13:50"
+      },
+      "aircraftType": {
+        "iata": "73H"
+      },
+      "serviceTypeCode": {
+        "iata": "J"
+      },
+      "segmentInfo": {
+        "numberOfStops": 0,
+        "intermediateAirports": {
+          "iata": []
+        }
+      },
+      "oagFingerprint": "f534c3c45da0628b6e8dc190d8524be2a18f84bf04e94d401c8ee8967b4e62e0",
+      "codeshare": {
+        "operatingAirlineDisclosure": {
+          "code": "KL",
+          "name": "",
+          "number": "2"
+        },
+        "aircraftOwner": {
+          "code": "KL",
+          "name": ""
+        },
+        "jointOperationAirlineDesignators": [],
+        "comments010": [],
+        "comment050": {
+          "code": "KL",
+          "serviceNumber": "1017",
+          "suffix": ""
+        }
+      }
+    },
+    {
+      "carrierCode": {
+        "iata": "BA",
+        "icao": "BAW"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 435,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "AMS"
+        },
+        "terminal": "",
+        "date": "2023-04-28",
+        "passengerLocalTime": "14:55"
+      },
+      "arrival": {
+        "airport": {
+          "iata": "LHR"
+        },
+        "terminal": "5",
+        "date": "2023-04-28",
+        "passengerLocalTime": "15:10"
+      },
+      "aircraftType": {
+        "iata": "319"
+      },
+      "serviceTypeCode": {
+        "iata": "J"
+      },
+      "segmentInfo": {
+        "numberOfStops": 0,
+        "intermediateAirports": {
+          "iata": []
+        }
+      },
+      "oagFingerprint": "3159c1172bf83b13fa3bc4b75124c10d08ee87f8f2d82d4abd4d9672c5e024c3",
+      "codeshare": {
+        "jointOperationAirlineDesignators": [],
+        "comments010": [
+          {
+            "code": "AA",
+            "serviceNumber": "6505",
+            "suffix": ""
+          }
+        ]
+      }
+    },
+    {
+      "carrierCode": {
+        "iata": "AA",
+        "icao": "AAL"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 6505,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "AMS",
+          "icao": "EHAM"
+        },
+        "terminal": "",
+        "date": "2023-04-28",
+        "passengerLocalTime": "14:55"
+      },
+      "arrival": {
+        "airport": {
+          "iata": "LHR",
+          "icao": "EGLL"
+        },
+        "terminal": "5",
+        "date": "2023-04-28",
+        "passengerLocalTime": "15:10"
+      },
+      "aircraftType": {
+        "iata": "319"
+      },
+      "serviceTypeCode": {
+        "iata": "J"
+      },
+      "segmentInfo": {
+        "numberOfStops": 0,
+        "intermediateAirports": {
+          "iata": []
+        }
+      },
+      "oagFingerprint": "91fae8b823b97c402c4b1eee186de1d4df47b23300eac000319d33014439b57b",
+      "codeshare": {
+        "operatingAirlineDisclosure": {
+          "code": "BA",
+          "name": "",
+          "number": "2"
+        },
+        "aircraftOwner": {
+          "code": "BA",
+          "name": ""
+        },
+        "jointOperationAirlineDesignators": [],
+        "comments010": [],
+        "comment050": {
+          "code": "BA",
+          "serviceNumber": "435",
+          "suffix": ""
+        }
+      }
+    },
+    {
+      "carrierCode": {
+        "iata": "KE",
+        "icao": "KAL"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 4259,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "AMS",
+          "icao": "EHAM"
+        },
+        "terminal": "",
+        "date": "2023-04-28",
+        "passengerLocalTime": "15:00"
+      },
+      "arrival": {
+        "airport": {
+          "iata": "LHR",
+          "icao": "EGLL"
+        },
+        "terminal": "",
+        "date": "2023-04-29",
+        "passengerLocalTime": "10:00"
+      },
+      "aircraftType": {
+        "iata": "RFS"
+      },
+      "serviceTypeCode": {
+        "iata": "V"
+      },
+      "segmentInfo": {
+        "numberOfStops": 0,
+        "intermediateAirports": {
+          "iata": []
+        }
+      },
+      "oagFingerprint": "1fce72f8f776e68ec2cde16a445cae54b7cab0e0fb240f293ac67427b9b4b8b7",
+      "codeshare": {
+        "jointOperationAirlineDesignators": [],
+        "comments010": []
+      }
+    },
+    {
+      "carrierCode": {
+        "iata": "JL",
+        "icao": "JAL"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 7102,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "AMS"
+        },
+        "terminal": "",
+        "date": "2023-04-28",
+        "passengerLocalTime": "15:45"
+      },
+      "arrival": {
+        "airport": {
+          "iata": "LHR"
+        },
+        "terminal": "5",
+        "date": "2023-04-28",
+        "passengerLocalTime": "16:00"
+      },
+      "aircraftType": {
+        "iata": "319"
+      },
+      "serviceTypeCode": {
+        "iata": "J"
+      },
+      "segmentInfo": {
+        "numberOfStops": 0,
+        "intermediateAirports": {
+          "iata": []
+        }
+      },
+      "oagFingerprint": "a4afb99255f5d76a9ba5a4ef84dcf10fb68b453f1db980f81378a5b3cba47dc6",
+      "codeshare": {
+        "operatingAirlineDisclosure": {
+          "code": "BA",
+          "name": "",
+          "number": "2"
+        },
+        "aircraftOwner": {
+          "code": "BA",
+          "name": ""
+        },
+        "jointOperationAirlineDesignators": [],
+        "comments010": [],
+        "comment050": {
+          "code": "BA",
+          "serviceNumber": "439",
+          "suffix": ""
+        }
+      }
+    },
+    {
+      "carrierCode": {
+        "iata": "BA",
+        "icao": "BAW"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 439,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "AMS"
+        },
+        "terminal": "",
+        "date": "2023-04-28",
+        "passengerLocalTime": "15:45"
+      },
+      "arrival": {
+        "airport": {
+          "iata": "LHR"
+        },
+        "terminal": "5",
+        "date": "2023-04-28",
+        "passengerLocalTime": "16:00"
+      },
+      "aircraftType": {
+        "iata": "319"
+      },
+      "serviceTypeCode": {
+        "iata": "J"
+      },
+      "segmentInfo": {
+        "numberOfStops": 0,
+        "intermediateAirports": {
+          "iata": []
+        }
+      },
+      "oagFingerprint": "53f2ed14ac29796e2354f24f103c7a9b5ab74e15602560f6ac37e2eddea18c43",
+      "codeshare": {
+        "jointOperationAirlineDesignators": [],
+        "comments010": [
+          {
+            "code": "JL",
+            "serviceNumber": "7102",
+            "suffix": ""
+          }
+        ]
+      }
+    },
+    {
+      "carrierCode": {
+        "iata": "AA",
+        "icao": "AAL"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 6749,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "AMS",
+          "icao": "EHAM"
+        },
+        "terminal": "",
+        "date": "2023-04-28",
+        "passengerLocalTime": "15:45"
+      },
+      "arrival": {
+        "airport": {
+          "iata": "LHR",
+          "icao": "EGLL"
+        },
+        "terminal": "5",
+        "date": "2023-04-28",
+        "passengerLocalTime": "16:00"
+      },
+      "aircraftType": {
+        "iata": "319"
+      },
+      "serviceTypeCode": {
+        "iata": "J"
+      },
+      "segmentInfo": {
+        "numberOfStops": 0,
+        "intermediateAirports": {
+          "iata": []
+        }
+      },
+      "oagFingerprint": "3a5f002f15387984576990cc08287b3e848d5e14a93cb963b61dfe7a2614e691",
+      "codeshare": {
+        "operatingAirlineDisclosure": {
+          "code": "BA",
+          "name": "",
+          "number": "2"
+        },
+        "aircraftOwner": {
+          "code": "BA",
+          "name": ""
+        },
+        "jointOperationAirlineDesignators": [],
+        "comments010": [],
+        "comment050": {
+          "code": "BA",
+          "serviceNumber": "439",
+          "suffix": ""
+        }
+      }
+    },
+    {
+      "carrierCode": {
+        "iata": "GA",
+        "icao": "GIA"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 9236,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "AMS"
+        },
+        "terminal": "",
+        "date": "2023-04-28",
+        "passengerLocalTime": "15:55"
+      },
+      "arrival": {
+        "airport": {
+          "iata": "LHR"
+        },
+        "terminal": "3",
+        "date": "2023-04-28",
+        "passengerLocalTime": "16:15"
+      },
+      "aircraftType": {
+        "iata": "295"
+      },
+      "serviceTypeCode": {
+        "iata": "J"
+      },
+      "segmentInfo": {
+        "numberOfStops": 0,
+        "intermediateAirports": {
+          "iata": []
+        }
+      },
+      "oagFingerprint": "9ce00672e6dcd7f2722d0e23464f537babf690aad2abed295df782eaeb2ceaab",
+      "codeshare": {
+        "operatingAirlineDisclosure": {
+          "code": "KL",
+          "name": "KLM Cityhopper for KLM Royal Dutch Airlines",
+          "number": "127Z"
+        },
+        "jointOperationAirlineDesignators": [],
+        "comments010": [],
+        "comment050": {
+          "code": "KL",
+          "serviceNumber": "1021",
+          "suffix": ""
+        }
+      }
+    },
+    {
+      "carrierCode": {
+        "iata": "SQ",
+        "icao": "SIA"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 3728,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "AMS"
+        },
+        "terminal": "",
+        "date": "2023-04-28",
+        "passengerLocalTime": "16:00"
+      },
+      "arrival": {
+        "airport": {
+          "iata": "LHR",
+          "icao": "EGLL"
+        },
+        "terminal": "",
+        "date": "2023-04-29",
+        "passengerLocalTime": "07:00"
+      },
+      "aircraftType": {
+        "iata": "RFS"
+      },
+      "serviceTypeCode": {
+        "iata": "V"
+      },
+      "segmentInfo": {
+        "numberOfStops": 0,
+        "intermediateAirports": {
+          "iata": []
+        }
+      },
+      "oagFingerprint": "c24e77b3156106a02c45f0fd4cd34d8a7387ae34f3b809f6c5eaca1cac27b6fb",
+      "codeshare": {
+        "jointOperationAirlineDesignators": [],
+        "comments010": []
+      }
+    },
+    {
+      "carrierCode": {
+        "iata": "MF",
+        "icao": "CXA"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 9931,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "AMS"
+        },
+        "terminal": "",
+        "date": "2023-04-28",
+        "passengerLocalTime": "17:15"
+      },
+      "arrival": {
+        "airport": {
+          "iata": "LHR"
+        },
+        "terminal": "3",
+        "date": "2023-04-28",
+        "passengerLocalTime": "17:35"
+      },
+      "aircraftType": {
+        "iata": "73G"
+      },
+      "serviceTypeCode": {
+        "iata": "J"
+      },
+      "segmentInfo": {
+        "numberOfStops": 0,
+        "intermediateAirports": {
+          "iata": []
+        }
+      },
+      "oagFingerprint": "8191ea117a2dceba4ddcc7c5c2009261b3a9d00434eaadb305ef69c684a5908d",
+      "codeshare": {
+        "operatingAirlineDisclosure": {
+          "code": "KL",
+          "name": "",
+          "number": "2"
+        },
+        "aircraftOwner": {
+          "code": "KL",
+          "name": ""
+        },
+        "jointOperationAirlineDesignators": [],
+        "comments010": [],
+        "comment050": {
+          "code": "KL",
+          "serviceNumber": "1023",
+          "suffix": ""
+        }
+      }
+    },
+    {
+      "carrierCode": {
+        "iata": "GA",
+        "icao": "GIA"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 8835,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "AMS",
+          "icao": "EHAM"
+        },
+        "terminal": "",
+        "date": "2023-04-28",
+        "passengerLocalTime": "17:15"
+      },
+      "arrival": {
+        "airport": {
+          "iata": "LHR",
+          "icao": "EGLL"
+        },
+        "terminal": "4",
+        "date": "2023-04-28",
+        "passengerLocalTime": "17:35"
+      },
+      "aircraftType": {
+        "iata": "73H"
+      },
+      "serviceTypeCode": {
+        "iata": "J"
+      },
+      "segmentInfo": {
+        "numberOfStops": 0,
+        "intermediateAirports": {
+          "iata": []
+        }
+      },
+      "oagFingerprint": "268bc6c6f6377c41e330b515361a66736aad5f24afb25427efa34296fd3cff6c",
+      "codeshare": {
+        "operatingAirlineDisclosure": {
+          "code": "KL",
+          "name": "KLM Cityhopper for KLM Royal Dutch Airlines",
+          "number": "127Z"
+        },
+        "jointOperationAirlineDesignators": [],
+        "comments010": [],
+        "comment050": {
+          "code": "KL",
+          "serviceNumber": "1023",
+          "suffix": ""
+        }
+      }
+    },
+    {
+      "carrierCode": {
+        "iata": "G3",
+        "icao": "GLO"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 5558,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "AMS",
+          "icao": "EHAM"
+        },
+        "terminal": "",
+        "date": "2023-04-28",
+        "passengerLocalTime": "17:15"
+      },
+      "arrival": {
+        "airport": {
+          "iata": "LHR",
+          "icao": "EGLL"
+        },
+        "terminal": "4",
+        "date": "2023-04-28",
+        "passengerLocalTime": "17:35"
+      },
+      "aircraftType": {
+        "iata": "73H"
+      },
+      "serviceTypeCode": {
+        "iata": "J"
+      },
+      "segmentInfo": {
+        "numberOfStops": 0,
+        "intermediateAirports": {
+          "iata": []
+        }
+      },
+      "oagFingerprint": "663410d9f15ad821e32dd331000eedfda3d65d87f35072c604ef0e92f7145255",
+      "codeshare": {
+        "operatingAirlineDisclosure": {
+          "code": "KL",
+          "name": "",
+          "number": "2"
+        },
+        "aircraftOwner": {
+          "code": "KL",
+          "name": ""
+        },
+        "jointOperationAirlineDesignators": [],
+        "comments010": [],
+        "comment050": {
+          "code": "KL",
+          "serviceNumber": "1023",
+          "suffix": ""
+        }
+      }
+    },
+    {
+      "carrierCode": {
+        "iata": "KL",
+        "icao": "KLM"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 1023,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "AMS",
+          "icao": "EHAM"
+        },
+        "terminal": "",
+        "date": "2023-04-28",
+        "passengerLocalTime": "17:15"
+      },
+      "arrival": {
+        "airport": {
+          "iata": "LHR",
+          "icao": "EGLL"
+        },
+        "terminal": "4",
+        "date": "2023-04-28",
+        "passengerLocalTime": "17:35"
+      },
+      "aircraftType": {
+        "iata": "73H"
+      },
+      "serviceTypeCode": {
+        "iata": "J"
+      },
+      "segmentInfo": {
+        "numberOfStops": 0,
+        "intermediateAirports": {
+          "iata": []
+        }
+      },
+      "oagFingerprint": "1962f3ce2c2480a78009440fa32236a5c3d8541a169a995a260c4f9c83e1d5b1",
+      "codeshare": {
+        "jointOperationAirlineDesignators": [],
+        "comments010": [
+          {
+            "code": "CI",
+            "serviceNumber": "9479",
+            "suffix": ""
+          },
+          {
+            "code": "GA",
+            "serviceNumber": "8835",
+            "suffix": ""
+          },
+          {
+            "code": "G3",
+            "serviceNumber": "5558",
+            "suffix": ""
+          },
+          {
+            "code": "KQ",
+            "serviceNumber": "1023",
+            "suffix": ""
+          },
+          {
+            "code": "MF",
+            "serviceNumber": "9931",
+            "suffix": ""
+          },
+          {
+            "code": "VS",
+            "serviceNumber": "6999",
+            "suffix": ""
+          }
+        ]
+      }
+    },
+    {
+      "carrierCode": {
+        "iata": "CI",
+        "icao": "CAL"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 9479,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "AMS",
+          "icao": "EHAM"
+        },
+        "terminal": "",
+        "date": "2023-04-28",
+        "passengerLocalTime": "17:15"
+      },
+      "arrival": {
+        "airport": {
+          "iata": "LHR",
+          "icao": "EGLL"
+        },
+        "terminal": "3",
+        "date": "2023-04-28",
+        "passengerLocalTime": "17:35"
+      },
+      "aircraftType": {
+        "iata": "73H"
+      },
+      "serviceTypeCode": {
+        "iata": "J"
+      },
+      "segmentInfo": {
+        "numberOfStops": 0,
+        "intermediateAirports": {
+          "iata": []
+        }
+      },
+      "oagFingerprint": "ff854b2600772334bf842cbb940e3c59b2e3fa1babae8289359dc18f3431bb19",
+      "codeshare": {
+        "operatingAirlineDisclosure": {
+          "code": "KL",
+          "name": "",
+          "number": "2"
+        },
+        "aircraftOwner": {
+          "code": "KL",
+          "name": ""
+        },
+        "jointOperationAirlineDesignators": [],
+        "comments010": [],
+        "comment050": {
+          "code": "KL",
+          "serviceNumber": "1023",
+          "suffix": ""
+        }
+      }
+    },
+    {
+      "carrierCode": {
+        "iata": "VS",
+        "icao": "VIR"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 6999,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "AMS",
+          "icao": "EHAM"
+        },
+        "terminal": "",
+        "date": "2023-04-28",
+        "passengerLocalTime": "17:15"
+      },
+      "arrival": {
+        "airport": {
+          "iata": "LHR",
+          "icao": "EGLL"
+        },
+        "terminal": "4",
+        "date": "2023-04-28",
+        "passengerLocalTime": "17:35"
+      },
+      "aircraftType": {
+        "iata": "73H"
+      },
+      "serviceTypeCode": {
+        "iata": "J"
+      },
+      "segmentInfo": {
+        "numberOfStops": 0,
+        "intermediateAirports": {
+          "iata": []
+        }
+      },
+      "oagFingerprint": "e03d4b2272d1f48d7c1c09763e48321676dbfd09deaf6116f07892900d6345c4",
+      "codeshare": {
+        "operatingAirlineDisclosure": {
+          "code": "KL",
+          "name": "",
+          "number": "2"
+        },
+        "aircraftOwner": {
+          "code": "KL",
+          "name": ""
+        },
+        "jointOperationAirlineDesignators": [],
+        "comments010": [],
+        "comment050": {
+          "code": "KL",
+          "serviceNumber": "1023",
+          "suffix": ""
+        }
+      }
+    },
+    {
+      "carrierCode": {
+        "iata": "MF",
+        "icao": "CXA"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 9933,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "AMS"
+        },
+        "terminal": "",
+        "date": "2023-04-28",
+        "passengerLocalTime": "17:40"
+      },
+      "arrival": {
+        "airport": {
+          "iata": "LHR"
+        },
+        "terminal": "3",
+        "date": "2023-04-28",
+        "passengerLocalTime": "17:50"
+      },
+      "aircraftType": {
+        "iata": "295"
+      },
+      "serviceTypeCode": {
+        "iata": "J"
+      },
+      "segmentInfo": {
+        "numberOfStops": 0,
+        "intermediateAirports": {
+          "iata": []
+        }
+      },
+      "oagFingerprint": "0e0fdb51bbc4624106d4cbc221602c90eb61bfb25872ac6253d4792db388ea9b",
+      "codeshare": {
+        "operatingAirlineDisclosure": {
+          "code": "KL",
+          "name": "",
+          "number": "2"
+        },
+        "aircraftOwner": {
+          "code": "KL",
+          "name": ""
+        },
+        "jointOperationAirlineDesignators": [],
+        "comments010": [],
+        "comment050": {
+          "code": "KL",
+          "serviceNumber": "1031",
+          "suffix": ""
+        }
+      }
+    },
+    {
+      "carrierCode": {
+        "iata": "BA",
+        "icao": "BAW"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 433,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "AMS"
+        },
+        "terminal": "",
+        "date": "2023-04-28",
+        "passengerLocalTime": "17:40"
+      },
+      "arrival": {
+        "airport": {
+          "iata": "LHR"
+        },
+        "terminal": "5",
+        "date": "2023-04-28",
+        "passengerLocalTime": "17:55"
+      },
+      "aircraftType": {
+        "iata": "32N"
+      },
+      "serviceTypeCode": {
+        "iata": "J"
+      },
+      "segmentInfo": {
+        "numberOfStops": 0,
+        "intermediateAirports": {
+          "iata": []
+        }
+      },
+      "oagFingerprint": "8be1699eb2d85561363865775e7a35259c46336cc33b8fde8fb7cc0dd7994f7b",
+      "codeshare": {
+        "jointOperationAirlineDesignators": [],
+        "comments010": [
+          {
+            "code": "AA",
+            "serviceNumber": "6507",
+            "suffix": ""
+          }
+        ]
+      }
+    },
+    {
+      "carrierCode": {
+        "iata": "GA",
+        "icao": "GIA"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 8837,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "AMS",
+          "icao": "EHAM"
+        },
+        "terminal": "",
+        "date": "2023-04-28",
+        "passengerLocalTime": "17:40"
+      },
+      "arrival": {
+        "airport": {
+          "iata": "LHR",
+          "icao": "EGLL"
+        },
+        "terminal": "4",
+        "date": "2023-04-28",
+        "passengerLocalTime": "17:50"
+      },
+      "aircraftType": {
+        "iata": "295"
+      },
+      "serviceTypeCode": {
+        "iata": "J"
+      },
+      "segmentInfo": {
+        "numberOfStops": 0,
+        "intermediateAirports": {
+          "iata": []
+        }
+      },
+      "oagFingerprint": "cdf960d36b868bc46bab3e3cecce0a50c65d407f034bb7ed5261bb20c425b69f",
+      "codeshare": {
+        "operatingAirlineDisclosure": {
+          "code": "KL",
+          "name": "KLM Cityhopper for KLM Royal Dutch Airlines",
+          "number": "127Z"
+        },
+        "jointOperationAirlineDesignators": [],
+        "comments010": [],
+        "comment050": {
+          "code": "KL",
+          "serviceNumber": "1031",
+          "suffix": ""
+        }
+      }
+    },
+    {
+      "carrierCode": {
+        "iata": "KL",
+        "icao": "KLM"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 1031,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "AMS",
+          "icao": "EHAM"
+        },
+        "terminal": "",
+        "date": "2023-04-28",
+        "passengerLocalTime": "17:40"
+      },
+      "arrival": {
+        "airport": {
+          "iata": "LHR",
+          "icao": "EGLL"
+        },
+        "terminal": "4",
+        "date": "2023-04-28",
+        "passengerLocalTime": "17:50"
+      },
+      "aircraftType": {
+        "iata": "295"
+      },
+      "serviceTypeCode": {
+        "iata": "J"
+      },
+      "segmentInfo": {
+        "numberOfStops": 0,
+        "intermediateAirports": {
+          "iata": []
+        }
+      },
+      "oagFingerprint": "497a8f1449a1945bdb15e225d11b4f835e23cde90e5dd5c350f12f51abf019f0",
+      "codeshare": {
+        "operatingAirlineDisclosure": {
+          "code": "",
+          "name": "KLM Cityhopper",
+          "number": "127X"
+        },
+        "jointOperationAirlineDesignators": [],
+        "comments010": [
+          {
+            "code": "GA",
+            "serviceNumber": "8837",
+            "suffix": ""
+          },
+          {
+            "code": "G3",
+            "serviceNumber": "5560",
+            "suffix": ""
+          },
+          {
+            "code": "KQ",
+            "serviceNumber": "1031",
+            "suffix": ""
+          },
+          {
+            "code": "MF",
+            "serviceNumber": "9933",
+            "suffix": ""
+          },
+          {
+            "code": "VS",
+            "serviceNumber": "7002",
+            "suffix": ""
+          }
+        ]
+      }
+    },
+    {
+      "carrierCode": {
+        "iata": "G3",
+        "icao": "GLO"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 5560,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "AMS",
+          "icao": "EHAM"
+        },
+        "terminal": "",
+        "date": "2023-04-28",
+        "passengerLocalTime": "17:40"
+      },
+      "arrival": {
+        "airport": {
+          "iata": "LHR",
+          "icao": "EGLL"
+        },
+        "terminal": "4",
+        "date": "2023-04-28",
+        "passengerLocalTime": "17:50"
+      },
+      "aircraftType": {
+        "iata": "295"
+      },
+      "serviceTypeCode": {
+        "iata": "J"
+      },
+      "segmentInfo": {
+        "numberOfStops": 0,
+        "intermediateAirports": {
+          "iata": []
+        }
+      },
+      "oagFingerprint": "ff61d172958dbd07203fc2eaed124bbea7462c72768f9a6d0818fc2be52f77f3",
+      "codeshare": {
+        "operatingAirlineDisclosure": {
+          "code": "",
+          "name": "KLM Cityhopper",
+          "number": "127Z"
+        },
+        "aircraftOwner": {
+          "code": "KL",
+          "name": ""
+        },
+        "jointOperationAirlineDesignators": [],
+        "comments010": [],
+        "comment050": {
+          "code": "KL",
+          "serviceNumber": "1031",
+          "suffix": ""
+        }
+      }
+    },
+    {
+      "carrierCode": {
+        "iata": "AA",
+        "icao": "AAL"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 6507,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "AMS",
+          "icao": "EHAM"
+        },
+        "terminal": "",
+        "date": "2023-04-28",
+        "passengerLocalTime": "17:40"
+      },
+      "arrival": {
+        "airport": {
+          "iata": "LHR",
+          "icao": "EGLL"
+        },
+        "terminal": "5",
+        "date": "2023-04-28",
+        "passengerLocalTime": "17:55"
+      },
+      "aircraftType": {
+        "iata": "320"
+      },
+      "serviceTypeCode": {
+        "iata": "J"
+      },
+      "segmentInfo": {
+        "numberOfStops": 0,
+        "intermediateAirports": {
+          "iata": []
+        }
+      },
+      "oagFingerprint": "772d196841195dee39d907a721703fc5dc851378b627b1b242df53d6e5f7c709",
+      "codeshare": {
+        "operatingAirlineDisclosure": {
+          "code": "BA",
+          "name": "",
+          "number": "2"
+        },
+        "aircraftOwner": {
+          "code": "BA",
+          "name": ""
+        },
+        "jointOperationAirlineDesignators": [],
+        "comments010": [],
+        "comment050": {
+          "code": "BA",
+          "serviceNumber": "433",
+          "suffix": ""
+        }
+      }
+    },
+    {
+      "carrierCode": {
+        "iata": "KQ",
+        "icao": "KQA"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 1031,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "AMS",
+          "icao": "EHAM"
+        },
+        "terminal": "",
+        "date": "2023-04-28",
+        "passengerLocalTime": "17:40"
+      },
+      "arrival": {
+        "airport": {
+          "iata": "LHR",
+          "icao": "EGLL"
+        },
+        "terminal": "4",
+        "date": "2023-04-28",
+        "passengerLocalTime": "17:50"
+      },
+      "aircraftType": {
+        "iata": "EMJ"
+      },
+      "serviceTypeCode": {
+        "iata": "J"
+      },
+      "segmentInfo": {
+        "numberOfStops": 0,
+        "intermediateAirports": {
+          "iata": []
+        }
+      },
+      "oagFingerprint": "edc13138b76fd6a27d8b2f09053f71181ed08309e5818735369c1642f3004d90",
+      "codeshare": {
+        "operatingAirlineDisclosure": {
+          "code": "KL",
+          "name": "",
+          "number": "2"
+        },
+        "aircraftOwner": {
+          "code": "KL",
+          "name": ""
+        },
+        "jointOperationAirlineDesignators": [],
+        "comments010": [],
+        "comment050": {
+          "code": "KL",
+          "serviceNumber": "1031",
+          "suffix": ""
+        }
+      }
+    },
+    {
+      "carrierCode": {
+        "iata": "VS",
+        "icao": "VIR"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 7002,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "AMS",
+          "icao": "EHAM"
+        },
+        "terminal": "",
+        "date": "2023-04-28",
+        "passengerLocalTime": "17:40"
+      },
+      "arrival": {
+        "airport": {
+          "iata": "LHR",
+          "icao": "EGLL"
+        },
+        "terminal": "4",
+        "date": "2023-04-28",
+        "passengerLocalTime": "17:50"
+      },
+      "aircraftType": {
+        "iata": "295"
+      },
+      "serviceTypeCode": {
+        "iata": "J"
+      },
+      "segmentInfo": {
+        "numberOfStops": 0,
+        "intermediateAirports": {
+          "iata": []
+        }
+      },
+      "oagFingerprint": "e2eb21ee8ed550d050bddc3fc2c7948ae06ea44e675643a9dd2efcbafb95938e",
+      "codeshare": {
+        "operatingAirlineDisclosure": {
+          "code": "",
+          "name": "KLM Cityhopper",
+          "number": "127Z"
+        },
+        "aircraftOwner": {
+          "code": "KL",
+          "name": ""
+        },
+        "jointOperationAirlineDesignators": [],
+        "comments010": [],
+        "comment050": {
+          "code": "KL",
+          "serviceNumber": "1031",
+          "suffix": ""
+        }
+      }
+    },
+    {
+      "carrierCode": {
+        "iata": "KQ",
+        "icao": "KQA"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 1023,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "AMS",
+          "icao": "EHAM"
+        },
+        "terminal": "",
+        "date": "2023-04-28",
+        "passengerLocalTime": "17:40"
+      },
+      "arrival": {
+        "airport": {
+          "iata": "LHR",
+          "icao": "EGLL"
+        },
+        "terminal": "4",
+        "date": "2023-04-28",
+        "passengerLocalTime": "18:00"
+      },
+      "aircraftType": {
+        "iata": "737"
+      },
+      "serviceTypeCode": {
+        "iata": "J"
+      },
+      "segmentInfo": {
+        "numberOfStops": 0,
+        "intermediateAirports": {
+          "iata": []
+        }
+      },
+      "oagFingerprint": "0d4def86698f604e310f2c2a647713d80d7d6a11532c05666cd8fa6c6633ff80",
+      "codeshare": {
+        "operatingAirlineDisclosure": {
+          "code": "KL",
+          "name": "",
+          "number": "2"
+        },
+        "aircraftOwner": {
+          "code": "KL",
+          "name": ""
+        },
+        "jointOperationAirlineDesignators": [],
+        "comments010": [],
+        "comment050": {
+          "code": "KL",
+          "serviceNumber": "1023",
+          "suffix": ""
+        }
+      }
+    },
+    {
+      "carrierCode": {
+        "iata": "BA",
+        "icao": "BAW"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 441,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "AMS"
+        },
+        "terminal": "",
+        "date": "2023-04-28",
+        "passengerLocalTime": "18:20"
+      },
+      "arrival": {
+        "airport": {
+          "iata": "LHR"
+        },
+        "terminal": "5",
+        "date": "2023-04-28",
+        "passengerLocalTime": "18:35"
+      },
+      "aircraftType": {
+        "iata": "32N"
+      },
+      "serviceTypeCode": {
+        "iata": "J"
+      },
+      "segmentInfo": {
+        "numberOfStops": 0,
+        "intermediateAirports": {
+          "iata": []
+        }
+      },
+      "oagFingerprint": "d95fcd4e471defdb34677e70e85a675afb77e447c53684d7a169bdc90fb91eec",
+      "codeshare": {
+        "jointOperationAirlineDesignators": [],
+        "comments010": [
+          {
+            "code": "AA",
+            "serviceNumber": "6636",
+            "suffix": ""
+          }
+        ]
+      }
+    },
+    {
+      "carrierCode": {
+        "iata": "AA",
+        "icao": "AAL"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 6636,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "AMS",
+          "icao": "EHAM"
+        },
+        "terminal": "",
+        "date": "2023-04-28",
+        "passengerLocalTime": "18:20"
+      },
+      "arrival": {
+        "airport": {
+          "iata": "LHR",
+          "icao": "EGLL"
+        },
+        "terminal": "5",
+        "date": "2023-04-28",
+        "passengerLocalTime": "18:35"
+      },
+      "aircraftType": {
+        "iata": "320"
+      },
+      "serviceTypeCode": {
+        "iata": "J"
+      },
+      "segmentInfo": {
+        "numberOfStops": 0,
+        "intermediateAirports": {
+          "iata": []
+        }
+      },
+      "oagFingerprint": "a73586c09927ac73cd45920497c9aa669af231c4edad2bb2a605adede04b71cc",
+      "codeshare": {
+        "operatingAirlineDisclosure": {
+          "code": "BA",
+          "name": "",
+          "number": "2"
+        },
+        "aircraftOwner": {
+          "code": "BA",
+          "name": ""
+        },
+        "jointOperationAirlineDesignators": [],
+        "comments010": [],
+        "comment050": {
+          "code": "BA",
+          "serviceNumber": "441",
+          "suffix": ""
+        }
+      }
+    },
+    {
+      "carrierCode": {
+        "iata": "AA",
+        "icao": "AAL"
+      },
+      "serviceSuffix": "T",
+      "flightNumber": 8878,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "AMS",
+          "icao": "EHAM"
+        },
+        "terminal": "",
+        "date": "2023-04-28",
+        "passengerLocalTime": "19:00"
+      },
+      "arrival": {
+        "airport": {
+          "iata": "LHR",
+          "icao": "EGLL"
+        },
+        "terminal": "",
+        "date": "2023-04-29",
+        "passengerLocalTime": "03:00"
+      },
+      "aircraftType": {
+        "iata": "RFS"
+      },
+      "serviceTypeCode": {
+        "iata": "V"
+      },
+      "segmentInfo": {
+        "numberOfStops": 0,
+        "intermediateAirports": {
+          "iata": []
+        }
+      },
+      "oagFingerprint": "73b7a1b5903d183555227d5b650602b514e6cdce9a1349cca1c2266ed3d71bd9",
+      "codeshare": {
+        "jointOperationAirlineDesignators": [],
+        "comments010": []
+      }
+    },
+    {
+      "carrierCode": {
+        "iata": "AA",
+        "icao": "AAL"
+      },
+      "serviceSuffix": "T",
+      "flightNumber": 8875,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "AMS",
+          "icao": "EHAM"
+        },
+        "terminal": "",
+        "date": "2023-04-28",
+        "passengerLocalTime": "19:00"
+      },
+      "arrival": {
+        "airport": {
+          "iata": "LHR",
+          "icao": "EGLL"
+        },
+        "terminal": "",
+        "date": "2023-04-29",
+        "passengerLocalTime": "02:00"
+      },
+      "aircraftType": {
+        "iata": "RFS"
+      },
+      "serviceTypeCode": {
+        "iata": "V"
+      },
+      "segmentInfo": {
+        "numberOfStops": 0,
+        "intermediateAirports": {
+          "iata": []
+        }
+      },
+      "oagFingerprint": "f96d76d33bfd66a7952ffcb0bc55af8404921f7990d59562c1dccdd39c43a929",
+      "codeshare": {
+        "jointOperationAirlineDesignators": [],
+        "comments010": []
+      }
+    },
+    {
+      "carrierCode": {
+        "iata": "AA",
+        "icao": "AAL"
+      },
+      "serviceSuffix": "T",
+      "flightNumber": 8888,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "AMS",
+          "icao": "EHAM"
+        },
+        "terminal": "",
+        "date": "2023-04-28",
+        "passengerLocalTime": "19:00"
+      },
+      "arrival": {
+        "airport": {
+          "iata": "LHR",
+          "icao": "EGLL"
+        },
+        "terminal": "",
+        "date": "2023-04-29",
+        "passengerLocalTime": "05:00"
+      },
+      "aircraftType": {
+        "iata": "RFS"
+      },
+      "serviceTypeCode": {
+        "iata": "V"
+      },
+      "segmentInfo": {
+        "numberOfStops": 0,
+        "intermediateAirports": {
+          "iata": []
+        }
+      },
+      "oagFingerprint": "c696aef32099860068f9cfd9a8e2297e56fa1244fbd55b191ae3e6ebfd4acbf7",
+      "codeshare": {
+        "jointOperationAirlineDesignators": [],
+        "comments010": []
+      }
+    },
+    {
+      "carrierCode": {
+        "iata": "AA",
+        "icao": "AAL"
+      },
+      "serviceSuffix": "T",
+      "flightNumber": 8886,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "AMS",
+          "icao": "EHAM"
+        },
+        "terminal": "",
+        "date": "2023-04-28",
+        "passengerLocalTime": "19:00"
+      },
+      "arrival": {
+        "airport": {
+          "iata": "LHR",
+          "icao": "EGLL"
+        },
+        "terminal": "",
+        "date": "2023-04-29",
+        "passengerLocalTime": "04:30"
+      },
+      "aircraftType": {
+        "iata": "RFS"
+      },
+      "serviceTypeCode": {
+        "iata": "V"
+      },
+      "segmentInfo": {
+        "numberOfStops": 0,
+        "intermediateAirports": {
+          "iata": []
+        }
+      },
+      "oagFingerprint": "81bf2ac33e44f032d8d7fdb0569c25fa0cc1ae922a366d74ae73fc19623c4dd6",
+      "codeshare": {
+        "jointOperationAirlineDesignators": [],
+        "comments010": []
+      }
+    },
+    {
+      "carrierCode": {
+        "iata": "AA",
+        "icao": "AAL"
+      },
+      "serviceSuffix": "T",
+      "flightNumber": 8877,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "AMS",
+          "icao": "EHAM"
+        },
+        "terminal": "",
+        "date": "2023-04-28",
+        "passengerLocalTime": "19:00"
+      },
+      "arrival": {
+        "airport": {
+          "iata": "LHR",
+          "icao": "EGLL"
+        },
+        "terminal": "",
+        "date": "2023-04-29",
+        "passengerLocalTime": "03:00"
+      },
+      "aircraftType": {
+        "iata": "RFS"
+      },
+      "serviceTypeCode": {
+        "iata": "V"
+      },
+      "segmentInfo": {
+        "numberOfStops": 0,
+        "intermediateAirports": {
+          "iata": []
+        }
+      },
+      "oagFingerprint": "942602f123424127b06be3c9d2f5827196b27f45de58e7b9598f3a95cc7cd3bc",
+      "codeshare": {
+        "jointOperationAirlineDesignators": [],
+        "comments010": []
+      }
+    },
+    {
+      "carrierCode": {
+        "iata": "AA",
+        "icao": "AAL"
+      },
+      "serviceSuffix": "T",
+      "flightNumber": 8885,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "AMS",
+          "icao": "EHAM"
+        },
+        "terminal": "",
+        "date": "2023-04-28",
+        "passengerLocalTime": "19:00"
+      },
+      "arrival": {
+        "airport": {
+          "iata": "LHR",
+          "icao": "EGLL"
+        },
+        "terminal": "",
+        "date": "2023-04-29",
+        "passengerLocalTime": "04:30"
+      },
+      "aircraftType": {
+        "iata": "RFS"
+      },
+      "serviceTypeCode": {
+        "iata": "V"
+      },
+      "segmentInfo": {
+        "numberOfStops": 0,
+        "intermediateAirports": {
+          "iata": []
+        }
+      },
+      "oagFingerprint": "a20f6e2272fc179538a50d4d7a26f39461bcad55c20747d40b05bbe1f0183cc3",
+      "codeshare": {
+        "jointOperationAirlineDesignators": [],
+        "comments010": []
+      }
+    },
+    {
+      "carrierCode": {
+        "iata": "AA",
+        "icao": "AAL"
+      },
+      "serviceSuffix": "T",
+      "flightNumber": 8879,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "AMS",
+          "icao": "EHAM"
+        },
+        "terminal": "",
+        "date": "2023-04-28",
+        "passengerLocalTime": "19:00"
+      },
+      "arrival": {
+        "airport": {
+          "iata": "LHR",
+          "icao": "EGLL"
+        },
+        "terminal": "",
+        "date": "2023-04-29",
+        "passengerLocalTime": "03:00"
+      },
+      "aircraftType": {
+        "iata": "RFS"
+      },
+      "serviceTypeCode": {
+        "iata": "V"
+      },
+      "segmentInfo": {
+        "numberOfStops": 0,
+        "intermediateAirports": {
+          "iata": []
+        }
+      },
+      "oagFingerprint": "8093ec94a59dab612187bc32f315d8f4a572a38faf88a98cdcc4f7e884befb95",
+      "codeshare": {
+        "jointOperationAirlineDesignators": [],
+        "comments010": []
+      }
+    },
+    {
+      "carrierCode": {
+        "iata": "AA",
+        "icao": "AAL"
+      },
+      "serviceSuffix": "T",
+      "flightNumber": 8883,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "AMS",
+          "icao": "EHAM"
+        },
+        "terminal": "",
+        "date": "2023-04-28",
+        "passengerLocalTime": "19:00"
+      },
+      "arrival": {
+        "airport": {
+          "iata": "LHR",
+          "icao": "EGLL"
+        },
+        "terminal": "",
+        "date": "2023-04-29",
+        "passengerLocalTime": "04:00"
+      },
+      "aircraftType": {
+        "iata": "RFS"
+      },
+      "serviceTypeCode": {
+        "iata": "V"
+      },
+      "segmentInfo": {
+        "numberOfStops": 0,
+        "intermediateAirports": {
+          "iata": []
+        }
+      },
+      "oagFingerprint": "125c1b5f07b4cdf91ab8d95a8279b6b179e4c97b1e771cbb27ae4748a6da98c6",
+      "codeshare": {
+        "jointOperationAirlineDesignators": [],
+        "comments010": []
+      }
+    },
+    {
+      "carrierCode": {
+        "iata": "AA",
+        "icao": "AAL"
+      },
+      "serviceSuffix": "T",
+      "flightNumber": 8881,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "AMS",
+          "icao": "EHAM"
+        },
+        "terminal": "",
+        "date": "2023-04-28",
+        "passengerLocalTime": "19:00"
+      },
+      "arrival": {
+        "airport": {
+          "iata": "LHR",
+          "icao": "EGLL"
+        },
+        "terminal": "",
+        "date": "2023-04-29",
+        "passengerLocalTime": "04:00"
+      },
+      "aircraftType": {
+        "iata": "RFS"
+      },
+      "serviceTypeCode": {
+        "iata": "V"
+      },
+      "segmentInfo": {
+        "numberOfStops": 0,
+        "intermediateAirports": {
+          "iata": []
+        }
+      },
+      "oagFingerprint": "a1cc6e0b7ba2af30804dd9e030c5084e91d0bf2e6290d5b7e7f1c480d9269982",
+      "codeshare": {
+        "jointOperationAirlineDesignators": [],
+        "comments010": []
+      }
+    },
+    {
+      "carrierCode": {
+        "iata": "AA",
+        "icao": "AAL"
+      },
+      "serviceSuffix": "T",
+      "flightNumber": 8884,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "AMS",
+          "icao": "EHAM"
+        },
+        "terminal": "",
+        "date": "2023-04-28",
+        "passengerLocalTime": "19:00"
+      },
+      "arrival": {
+        "airport": {
+          "iata": "LHR",
+          "icao": "EGLL"
+        },
+        "terminal": "",
+        "date": "2023-04-29",
+        "passengerLocalTime": "04:00"
+      },
+      "aircraftType": {
+        "iata": "RFS"
+      },
+      "serviceTypeCode": {
+        "iata": "V"
+      },
+      "segmentInfo": {
+        "numberOfStops": 0,
+        "intermediateAirports": {
+          "iata": []
+        }
+      },
+      "oagFingerprint": "332911abc5bb9e7a7c5f066e9bc56704be92e2a720844f142988622705cb184f",
+      "codeshare": {
+        "jointOperationAirlineDesignators": [],
+        "comments010": []
+      }
+    },
+    {
+      "carrierCode": {
+        "iata": "AA",
+        "icao": "AAL"
+      },
+      "serviceSuffix": "T",
+      "flightNumber": 8876,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "AMS",
+          "icao": "EHAM"
+        },
+        "terminal": "",
+        "date": "2023-04-28",
+        "passengerLocalTime": "19:00"
+      },
+      "arrival": {
+        "airport": {
+          "iata": "LHR",
+          "icao": "EGLL"
+        },
+        "terminal": "",
+        "date": "2023-04-29",
+        "passengerLocalTime": "02:30"
+      },
+      "aircraftType": {
+        "iata": "RFS"
+      },
+      "serviceTypeCode": {
+        "iata": "V"
+      },
+      "segmentInfo": {
+        "numberOfStops": 0,
+        "intermediateAirports": {
+          "iata": []
+        }
+      },
+      "oagFingerprint": "d2ebbcf7e10a1fdd2fecb7efcdf76fcaa4b33f7a1eca10e6bb1c38402f4b3925",
+      "codeshare": {
+        "jointOperationAirlineDesignators": [],
+        "comments010": []
+      }
+    },
+    {
+      "carrierCode": {
+        "iata": "AA",
+        "icao": "AAL"
+      },
+      "serviceSuffix": "T",
+      "flightNumber": 8882,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "AMS",
+          "icao": "EHAM"
+        },
+        "terminal": "",
+        "date": "2023-04-28",
+        "passengerLocalTime": "19:00"
+      },
+      "arrival": {
+        "airport": {
+          "iata": "LHR",
+          "icao": "EGLL"
+        },
+        "terminal": "",
+        "date": "2023-04-29",
+        "passengerLocalTime": "04:00"
+      },
+      "aircraftType": {
+        "iata": "RFS"
+      },
+      "serviceTypeCode": {
+        "iata": "V"
+      },
+      "segmentInfo": {
+        "numberOfStops": 0,
+        "intermediateAirports": {
+          "iata": []
+        }
+      },
+      "oagFingerprint": "5c9619acdfd843a9ba26003f1f9d67819f0752dfc1fbf101310c20865a63d8cd",
+      "codeshare": {
+        "jointOperationAirlineDesignators": [],
+        "comments010": []
+      }
+    },
+    {
+      "carrierCode": {
+        "iata": "AA",
+        "icao": "AAL"
+      },
+      "serviceSuffix": "T",
+      "flightNumber": 8887,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "AMS",
+          "icao": "EHAM"
+        },
+        "terminal": "",
+        "date": "2023-04-28",
+        "passengerLocalTime": "19:00"
+      },
+      "arrival": {
+        "airport": {
+          "iata": "LHR",
+          "icao": "EGLL"
+        },
+        "terminal": "",
+        "date": "2023-04-29",
+        "passengerLocalTime": "04:30"
+      },
+      "aircraftType": {
+        "iata": "RFS"
+      },
+      "serviceTypeCode": {
+        "iata": "V"
+      },
+      "segmentInfo": {
+        "numberOfStops": 0,
+        "intermediateAirports": {
+          "iata": []
+        }
+      },
+      "oagFingerprint": "2517e47e925d7789a9da9d836b9bc4f8bf6a05acdb66212ba8de6c18d94bf052",
+      "codeshare": {
+        "jointOperationAirlineDesignators": [],
+        "comments010": []
+      }
+    },
+    {
+      "carrierCode": {
+        "iata": "AA",
+        "icao": "AAL"
+      },
+      "serviceSuffix": "T",
+      "flightNumber": 8880,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "AMS",
+          "icao": "EHAM"
+        },
+        "terminal": "",
+        "date": "2023-04-28",
+        "passengerLocalTime": "19:00"
+      },
+      "arrival": {
+        "airport": {
+          "iata": "LHR",
+          "icao": "EGLL"
+        },
+        "terminal": "",
+        "date": "2023-04-29",
+        "passengerLocalTime": "03:30"
+      },
+      "aircraftType": {
+        "iata": "RFS"
+      },
+      "serviceTypeCode": {
+        "iata": "V"
+      },
+      "segmentInfo": {
+        "numberOfStops": 0,
+        "intermediateAirports": {
+          "iata": []
+        }
+      },
+      "oagFingerprint": "48d70b69cadab43e6ac0a9bf1536245b36f1774dadd2310aa82bf365e6d3a60b",
+      "codeshare": {
+        "jointOperationAirlineDesignators": [],
+        "comments010": []
+      }
+    },
+    {
+      "carrierCode": {
+        "iata": "WY",
+        "icao": "OMA"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 5527,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "AMS"
+        },
+        "terminal": "",
+        "date": "2023-04-28",
+        "passengerLocalTime": "19:05"
+      },
+      "arrival": {
+        "airport": {
+          "iata": "LHR"
+        },
+        "terminal": "4",
+        "date": "2023-04-28",
+        "passengerLocalTime": "19:25"
+      },
+      "aircraftType": {
+        "iata": "E75"
+      },
+      "serviceTypeCode": {
+        "iata": "J"
+      },
+      "segmentInfo": {
+        "numberOfStops": 0,
+        "intermediateAirports": {
+          "iata": []
+        }
+      },
+      "oagFingerprint": "2b27ece32ce91a18ed8ed2912f0987941419381276e4b6c0da0dd0f0b867cf2d",
+      "codeshare": {
+        "operatingAirlineDisclosure": {
+          "code": "KL",
+          "name": "",
+          "number": "2"
+        },
+        "aircraftOwner": {
+          "code": "KL",
+          "name": ""
+        },
+        "jointOperationAirlineDesignators": [],
+        "comments010": [],
+        "comment050": {
+          "code": "KL",
+          "serviceNumber": "1027",
+          "suffix": ""
+        }
+      }
+    },
+    {
+      "carrierCode": {
+        "iata": "MF",
+        "icao": "CXA"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 9935,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "AMS",
+          "icao": "EHAM"
+        },
+        "terminal": "",
+        "date": "2023-04-28",
+        "passengerLocalTime": "19:05"
+      },
+      "arrival": {
+        "airport": {
+          "iata": "LHR",
+          "icao": "EGLL"
+        },
+        "terminal": "3",
+        "date": "2023-04-28",
+        "passengerLocalTime": "19:25"
+      },
+      "aircraftType": {
+        "iata": "295"
+      },
+      "serviceTypeCode": {
+        "iata": "J"
+      },
+      "segmentInfo": {
+        "numberOfStops": 0,
+        "intermediateAirports": {
+          "iata": []
+        }
+      },
+      "oagFingerprint": "d05226529b0d6c7310526f642b9688d45033976441c645ea84e0c06b30f4164a",
+      "codeshare": {
+        "operatingAirlineDisclosure": {
+          "code": "KL",
+          "name": "",
+          "number": "2"
+        },
+        "aircraftOwner": {
+          "code": "KL",
+          "name": ""
+        },
+        "jointOperationAirlineDesignators": [],
+        "comments010": [],
+        "comment050": {
+          "code": "KL",
+          "serviceNumber": "1027",
+          "suffix": ""
+        }
+      }
+    },
+    {
+      "carrierCode": {
+        "iata": "CI",
+        "icao": "CAL"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 9485,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "AMS",
+          "icao": "EHAM"
+        },
+        "terminal": "",
+        "date": "2023-04-28",
+        "passengerLocalTime": "19:05"
+      },
+      "arrival": {
+        "airport": {
+          "iata": "LHR",
+          "icao": "EGLL"
+        },
+        "terminal": "3",
+        "date": "2023-04-28",
+        "passengerLocalTime": "19:25"
+      },
+      "aircraftType": {
+        "iata": "295"
+      },
+      "serviceTypeCode": {
+        "iata": "J"
+      },
+      "segmentInfo": {
+        "numberOfStops": 0,
+        "intermediateAirports": {
+          "iata": []
+        }
+      },
+      "oagFingerprint": "9ecb7802c54f066b5cd8d9d94310196e6677f97fe007ae2374463f36b0bf3e6f",
+      "codeshare": {
+        "operatingAirlineDisclosure": {
+          "code": "KL",
+          "name": "",
+          "number": "2"
+        },
+        "aircraftOwner": {
+          "code": "KL",
+          "name": ""
+        },
+        "jointOperationAirlineDesignators": [],
+        "comments010": [],
+        "comment050": {
+          "code": "KL",
+          "serviceNumber": "1027",
+          "suffix": ""
+        }
+      }
+    },
+    {
+      "carrierCode": {
+        "iata": "KL",
+        "icao": "KLM"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 1027,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "AMS",
+          "icao": "EHAM"
+        },
+        "terminal": "",
+        "date": "2023-04-28",
+        "passengerLocalTime": "19:05"
+      },
+      "arrival": {
+        "airport": {
+          "iata": "LHR",
+          "icao": "EGLL"
+        },
+        "terminal": "4",
+        "date": "2023-04-28",
+        "passengerLocalTime": "19:25"
+      },
+      "aircraftType": {
+        "iata": "295"
+      },
+      "serviceTypeCode": {
+        "iata": "J"
+      },
+      "segmentInfo": {
+        "numberOfStops": 0,
+        "intermediateAirports": {
+          "iata": []
+        }
+      },
+      "oagFingerprint": "738f0afe4fd6c7f33b24137a245f906d83157156d904a5376eb8e3723a9a4d9b",
+      "codeshare": {
+        "operatingAirlineDisclosure": {
+          "code": "",
+          "name": "KLM Cityhopper",
+          "number": "127X"
+        },
+        "jointOperationAirlineDesignators": [],
+        "comments010": [
+          {
+            "code": "CI",
+            "serviceNumber": "9485",
+            "suffix": ""
+          },
+          {
+            "code": "CZ",
+            "serviceNumber": "7715",
+            "suffix": ""
+          },
+          {
+            "code": "KQ",
+            "serviceNumber": "1027",
+            "suffix": ""
+          },
+          {
+            "code": "MF",
+            "serviceNumber": "9935",
+            "suffix": ""
+          },
+          {
+            "code": "VS",
+            "serviceNumber": "7000",
+            "suffix": ""
+          },
+          {
+            "code": "WY",
+            "serviceNumber": "5527",
+            "suffix": ""
+          }
+        ]
+      }
+    },
+    {
+      "carrierCode": {
+        "iata": "CZ",
+        "icao": "CSN"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 7715,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "AMS",
+          "icao": "EHAM"
+        },
+        "terminal": "",
+        "date": "2023-04-28",
+        "passengerLocalTime": "19:05"
+      },
+      "arrival": {
+        "airport": {
+          "iata": "LHR",
+          "icao": "EGLL"
+        },
+        "terminal": "4",
+        "date": "2023-04-28",
+        "passengerLocalTime": "19:25"
+      },
+      "aircraftType": {
+        "iata": "295"
+      },
+      "serviceTypeCode": {
+        "iata": "J"
+      },
+      "segmentInfo": {
+        "numberOfStops": 0,
+        "intermediateAirports": {
+          "iata": []
+        }
+      },
+      "oagFingerprint": "cfeed2ba945b8f1cd73abc486a11b899277e6042022e44f87aaa1f7ba3da9140",
+      "codeshare": {
+        "operatingAirlineDisclosure": {
+          "code": "KL",
+          "name": "",
+          "number": "2"
+        },
+        "aircraftOwner": {
+          "code": "KL",
+          "name": ""
+        },
+        "jointOperationAirlineDesignators": [],
+        "comments010": [],
+        "comment050": {
+          "code": "KL",
+          "serviceNumber": "1027",
+          "suffix": ""
+        }
+      }
+    },
+    {
+      "carrierCode": {
+        "iata": "VS",
+        "icao": "VIR"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 7000,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "AMS",
+          "icao": "EHAM"
+        },
+        "terminal": "",
+        "date": "2023-04-28",
+        "passengerLocalTime": "19:05"
+      },
+      "arrival": {
+        "airport": {
+          "iata": "LHR",
+          "icao": "EGLL"
+        },
+        "terminal": "4",
+        "date": "2023-04-28",
+        "passengerLocalTime": "19:25"
+      },
+      "aircraftType": {
+        "iata": "295"
+      },
+      "serviceTypeCode": {
+        "iata": "J"
+      },
+      "segmentInfo": {
+        "numberOfStops": 0,
+        "intermediateAirports": {
+          "iata": []
+        }
+      },
+      "oagFingerprint": "9ee1730af6ec3e7c58f764e43acd5a129505b1fea89cd7559a2302694118ef10",
+      "codeshare": {
+        "operatingAirlineDisclosure": {
+          "code": "",
+          "name": "KLM Cityhopper",
+          "number": "127Z"
+        },
+        "aircraftOwner": {
+          "code": "KL",
+          "name": ""
+        },
+        "jointOperationAirlineDesignators": [],
+        "comments010": [],
+        "comment050": {
+          "code": "KL",
+          "serviceNumber": "1027",
+          "suffix": ""
+        }
+      }
+    },
+    {
+      "carrierCode": {
+        "iata": "KQ",
+        "icao": "KQA"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 1027,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "AMS",
+          "icao": "EHAM"
+        },
+        "terminal": "",
+        "date": "2023-04-28",
+        "passengerLocalTime": "19:50"
+      },
+      "arrival": {
+        "airport": {
+          "iata": "LHR",
+          "icao": "EGLL"
+        },
+        "terminal": "3",
+        "date": "2023-04-28",
+        "passengerLocalTime": "20:15"
+      },
+      "aircraftType": {
+        "iata": "737"
+      },
+      "serviceTypeCode": {
+        "iata": "J"
+      },
+      "segmentInfo": {
+        "numberOfStops": 0,
+        "intermediateAirports": {
+          "iata": []
+        }
+      },
+      "oagFingerprint": "9c082bc2014902caf3f94e6df93c428eca24d4449453e95f6df258ef5b82463e",
+      "codeshare": {
+        "operatingAirlineDisclosure": {
+          "code": "KL",
+          "name": "",
+          "number": "2"
+        },
+        "aircraftOwner": {
+          "code": "KL",
+          "name": ""
+        },
+        "jointOperationAirlineDesignators": [],
+        "comments010": [],
+        "comment050": {
+          "code": "KL",
+          "serviceNumber": "1027",
+          "suffix": ""
+        }
+      }
+    },
+    {
+      "carrierCode": {
+        "iata": "AC",
+        "icao": "ACA"
+      },
+      "serviceSuffix": "T",
+      "flightNumber": 6855,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "AMS"
+        },
+        "terminal": "",
+        "date": "2023-04-28",
+        "passengerLocalTime": "20:00"
+      },
+      "arrival": {
+        "airport": {
+          "iata": "LHR"
+        },
+        "terminal": "",
+        "date": "2023-04-29",
+        "passengerLocalTime": "04:00"
+      },
+      "aircraftType": {
+        "iata": "RFS"
+      },
+      "serviceTypeCode": {
+        "iata": "V"
+      },
+      "segmentInfo": {
+        "numberOfStops": 0,
+        "intermediateAirports": {
+          "iata": []
+        }
+      },
+      "oagFingerprint": "bfd44c5de896134583b80c06e3e2db392ac9fe737f08b77e5f32f211d003994b",
+      "codeshare": {
+        "jointOperationAirlineDesignators": [],
+        "comments010": []
+      }
+    },
+    {
+      "carrierCode": {
+        "iata": "EK",
+        "icao": "UAE"
+      },
+      "serviceSuffix": "T",
+      "flightNumber": 9422,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "AMS"
+        },
+        "terminal": "",
+        "date": "2023-04-28",
+        "passengerLocalTime": "20:00"
+      },
+      "arrival": {
+        "airport": {
+          "iata": "LHR"
+        },
+        "terminal": "",
+        "date": "2023-04-29",
+        "passengerLocalTime": "12:00"
+      },
+      "aircraftType": {
+        "iata": "RFS"
+      },
+      "serviceTypeCode": {
+        "iata": "V"
+      },
+      "segmentInfo": {
+        "numberOfStops": 0,
+        "intermediateAirports": {
+          "iata": []
+        }
+      },
+      "oagFingerprint": "7cfb95526d4f57e01c5e2894dcaeead80f20e298684f4a02d9a92ee145c03c17",
+      "codeshare": {
+        "jointOperationAirlineDesignators": [],
+        "comments010": []
+      }
+    },
+    {
+      "carrierCode": {
+        "iata": "AC",
+        "icao": "ACA"
+      },
+      "serviceSuffix": "T",
+      "flightNumber": 6853,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "AMS"
+        },
+        "terminal": "",
+        "date": "2023-04-28",
+        "passengerLocalTime": "20:00"
+      },
+      "arrival": {
+        "airport": {
+          "iata": "LHR"
+        },
+        "terminal": "",
+        "date": "2023-04-29",
+        "passengerLocalTime": "04:00"
+      },
+      "aircraftType": {
+        "iata": "RFS"
+      },
+      "serviceTypeCode": {
+        "iata": "V"
+      },
+      "segmentInfo": {
+        "numberOfStops": 0,
+        "intermediateAirports": {
+          "iata": []
+        }
+      },
+      "oagFingerprint": "d6347c7cb141b27028c35a43964bbc1a7f89c47a09bb768e1a47d52b604b3564",
+      "codeshare": {
+        "jointOperationAirlineDesignators": [],
+        "comments010": []
+      }
+    },
+    {
+      "carrierCode": {
+        "iata": "UA",
+        "icao": "UAL"
+      },
+      "serviceSuffix": "T",
+      "flightNumber": 5024,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "AMS"
+        },
+        "terminal": "",
+        "date": "2023-04-28",
+        "passengerLocalTime": "20:00"
+      },
+      "arrival": {
+        "airport": {
+          "iata": "LHR"
+        },
+        "terminal": "",
+        "date": "2023-04-29",
+        "passengerLocalTime": "20:00"
+      },
+      "aircraftType": {
+        "iata": "RFS"
+      },
+      "serviceTypeCode": {
+        "iata": "V"
+      },
+      "segmentInfo": {
+        "numberOfStops": 0,
+        "intermediateAirports": {
+          "iata": []
+        }
+      },
+      "oagFingerprint": "cea249ff67dd13ceb54933f405a9db4d735e7e374d2233d7367c8eb69ccf478f",
+      "codeshare": {
+        "jointOperationAirlineDesignators": [],
+        "comments010": []
+      }
+    },
+    {
+      "carrierCode": {
+        "iata": "MF",
+        "icao": "CXA"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 9655,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "AMS"
+        },
+        "terminal": "",
+        "date": "2023-04-28",
+        "passengerLocalTime": "20:30"
+      },
+      "arrival": {
+        "airport": {
+          "iata": "LHR"
+        },
+        "terminal": "3",
+        "date": "2023-04-28",
+        "passengerLocalTime": "20:55"
+      },
+      "aircraftType": {
+        "iata": "73G"
+      },
+      "serviceTypeCode": {
+        "iata": "J"
+      },
+      "segmentInfo": {
+        "numberOfStops": 0,
+        "intermediateAirports": {
+          "iata": []
+        }
+      },
+      "oagFingerprint": "6478a9753bbbaab3b3705094a6234eda82d1e8fe4b9d784e394ab363540fcafb",
+      "codeshare": {
+        "operatingAirlineDisclosure": {
+          "code": "KL",
+          "name": "",
+          "number": "2"
+        },
+        "aircraftOwner": {
+          "code": "KL",
+          "name": ""
+        },
+        "jointOperationAirlineDesignators": [],
+        "comments010": [],
+        "comment050": {
+          "code": "KL",
+          "serviceNumber": "1033",
+          "suffix": ""
+        }
+      }
+    },
+    {
+      "carrierCode": {
+        "iata": "G3",
+        "icao": "GLO"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 5608,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "AMS",
+          "icao": "EHAM"
+        },
+        "terminal": "",
+        "date": "2023-04-28",
+        "passengerLocalTime": "20:30"
+      },
+      "arrival": {
+        "airport": {
+          "iata": "LHR",
+          "icao": "EGLL"
+        },
+        "terminal": "4",
+        "date": "2023-04-28",
+        "passengerLocalTime": "20:55"
+      },
+      "aircraftType": {
+        "iata": "73H"
+      },
+      "serviceTypeCode": {
+        "iata": "J"
+      },
+      "segmentInfo": {
+        "numberOfStops": 0,
+        "intermediateAirports": {
+          "iata": []
+        }
+      },
+      "oagFingerprint": "9cdfb97bf3c5804194d251a379cbd61bd5c0a2fdebff77216c45c6251689e113",
+      "codeshare": {
+        "operatingAirlineDisclosure": {
+          "code": "KL",
+          "name": "",
+          "number": "2"
+        },
+        "aircraftOwner": {
+          "code": "KL",
+          "name": ""
+        },
+        "jointOperationAirlineDesignators": [],
+        "comments010": [],
+        "comment050": {
+          "code": "KL",
+          "serviceNumber": "1033",
+          "suffix": ""
+        }
+      }
+    },
+    {
+      "carrierCode": {
+        "iata": "CI",
+        "icao": "CAL"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 9493,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "AMS",
+          "icao": "EHAM"
+        },
+        "terminal": "",
+        "date": "2023-04-28",
+        "passengerLocalTime": "20:30"
+      },
+      "arrival": {
+        "airport": {
+          "iata": "LHR",
+          "icao": "EGLL"
+        },
+        "terminal": "3",
+        "date": "2023-04-28",
+        "passengerLocalTime": "20:55"
+      },
+      "aircraftType": {
+        "iata": "73H"
+      },
+      "serviceTypeCode": {
+        "iata": "J"
+      },
+      "segmentInfo": {
+        "numberOfStops": 0,
+        "intermediateAirports": {
+          "iata": []
+        }
+      },
+      "oagFingerprint": "db1d017dd02db58e6d3ca683b46c5587e119fd9a5b481da4c03f35bf8f07b9d0",
+      "codeshare": {
+        "operatingAirlineDisclosure": {
+          "code": "KL",
+          "name": "",
+          "number": "2"
+        },
+        "aircraftOwner": {
+          "code": "KL",
+          "name": ""
+        },
+        "jointOperationAirlineDesignators": [],
+        "comments010": [],
+        "comment050": {
+          "code": "KL",
+          "serviceNumber": "1033",
+          "suffix": ""
+        }
+      }
+    },
+    {
+      "carrierCode": {
+        "iata": "WY",
+        "icao": "OMA"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 5031,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "AMS",
+          "icao": "EHAM"
+        },
+        "terminal": "",
+        "date": "2023-04-28",
+        "passengerLocalTime": "20:30"
+      },
+      "arrival": {
+        "airport": {
+          "iata": "LHR",
+          "icao": "EGLL"
+        },
+        "terminal": "4",
+        "date": "2023-04-28",
+        "passengerLocalTime": "20:55"
+      },
+      "aircraftType": {
+        "iata": "738"
+      },
+      "serviceTypeCode": {
+        "iata": "J"
+      },
+      "segmentInfo": {
+        "numberOfStops": 0,
+        "intermediateAirports": {
+          "iata": []
+        }
+      },
+      "oagFingerprint": "b1f40b0c84afd5c43272b84c602240c9bb9c7df6a8b57c27139d8f765e51d9aa",
+      "codeshare": {
+        "operatingAirlineDisclosure": {
+          "code": "KL",
+          "name": "",
+          "number": "2"
+        },
+        "aircraftOwner": {
+          "code": "KL",
+          "name": ""
+        },
+        "jointOperationAirlineDesignators": [],
+        "comments010": [],
+        "comment050": {
+          "code": "KL",
+          "serviceNumber": "1033",
+          "suffix": ""
+        }
+      }
+    },
+    {
+      "carrierCode": {
+        "iata": "CZ",
+        "icao": "CSN"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 7716,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "AMS",
+          "icao": "EHAM"
+        },
+        "terminal": "",
+        "date": "2023-04-28",
+        "passengerLocalTime": "20:30"
+      },
+      "arrival": {
+        "airport": {
+          "iata": "LHR",
+          "icao": "EGLL"
+        },
+        "terminal": "4",
+        "date": "2023-04-28",
+        "passengerLocalTime": "20:55"
+      },
+      "aircraftType": {
+        "iata": "73H"
+      },
+      "serviceTypeCode": {
+        "iata": "J"
+      },
+      "segmentInfo": {
+        "numberOfStops": 0,
+        "intermediateAirports": {
+          "iata": []
+        }
+      },
+      "oagFingerprint": "29d83535e44e25dbca383b61577ad6b124582cc36ad121dff5e9dfd3363ea429",
+      "codeshare": {
+        "operatingAirlineDisclosure": {
+          "code": "KL",
+          "name": "",
+          "number": "2"
+        },
+        "aircraftOwner": {
+          "code": "KL",
+          "name": ""
+        },
+        "jointOperationAirlineDesignators": [],
+        "comments010": [],
+        "comment050": {
+          "code": "KL",
+          "serviceNumber": "1033",
+          "suffix": ""
+        }
+      }
+    },
+    {
+      "carrierCode": {
+        "iata": "KL",
+        "icao": "KLM"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 1033,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "AMS",
+          "icao": "EHAM"
+        },
+        "terminal": "",
+        "date": "2023-04-28",
+        "passengerLocalTime": "20:30"
+      },
+      "arrival": {
+        "airport": {
+          "iata": "LHR",
+          "icao": "EGLL"
+        },
+        "terminal": "4",
+        "date": "2023-04-28",
+        "passengerLocalTime": "20:55"
+      },
+      "aircraftType": {
+        "iata": "73H"
+      },
+      "serviceTypeCode": {
+        "iata": "J"
+      },
+      "segmentInfo": {
+        "numberOfStops": 0,
+        "intermediateAirports": {
+          "iata": []
+        }
+      },
+      "oagFingerprint": "65928a892ef8e3b98c19278d8702312b42ab1c1257c9e4246140ac50705db7cb",
+      "codeshare": {
+        "jointOperationAirlineDesignators": [],
+        "comments010": [
+          {
+            "code": "CI",
+            "serviceNumber": "9493",
+            "suffix": ""
+          },
+          {
+            "code": "CZ",
+            "serviceNumber": "7716",
+            "suffix": ""
+          },
+          {
+            "code": "G3",
+            "serviceNumber": "5608",
+            "suffix": ""
+          },
+          {
+            "code": "KQ",
+            "serviceNumber": "1033",
+            "suffix": ""
+          },
+          {
+            "code": "MF",
+            "serviceNumber": "9655",
+            "suffix": ""
+          },
+          {
+            "code": "VS",
+            "serviceNumber": "7061",
+            "suffix": ""
+          },
+          {
+            "code": "WY",
+            "serviceNumber": "5031",
+            "suffix": ""
+          }
+        ]
+      }
+    },
+    {
+      "carrierCode": {
+        "iata": "VS",
+        "icao": "VIR"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 7061,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "AMS",
+          "icao": "EHAM"
+        },
+        "terminal": "",
+        "date": "2023-04-28",
+        "passengerLocalTime": "20:30"
+      },
+      "arrival": {
+        "airport": {
+          "iata": "LHR",
+          "icao": "EGLL"
+        },
+        "terminal": "4",
+        "date": "2023-04-28",
+        "passengerLocalTime": "20:55"
+      },
+      "aircraftType": {
+        "iata": "73H"
+      },
+      "serviceTypeCode": {
+        "iata": "J"
+      },
+      "segmentInfo": {
+        "numberOfStops": 0,
+        "intermediateAirports": {
+          "iata": []
+        }
+      },
+      "oagFingerprint": "ab1228b9c96569155d478b48f66299be72a08340b77e250c9e414805e0b8bc55",
+      "codeshare": {
+        "operatingAirlineDisclosure": {
+          "code": "KL",
+          "name": "",
+          "number": "2"
+        },
+        "aircraftOwner": {
+          "code": "KL",
+          "name": ""
+        },
+        "jointOperationAirlineDesignators": [],
+        "comments010": [],
+        "comment050": {
+          "code": "KL",
+          "serviceNumber": "1033",
+          "suffix": ""
+        }
+      }
+    },
+    {
+      "carrierCode": {
+        "iata": "BA",
+        "icao": "BAW"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 443,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "AMS"
+        },
+        "terminal": "",
+        "date": "2023-04-28",
+        "passengerLocalTime": "21:30"
+      },
+      "arrival": {
+        "airport": {
+          "iata": "LHR"
+        },
+        "terminal": "5",
+        "date": "2023-04-28",
+        "passengerLocalTime": "21:40"
+      },
+      "aircraftType": {
+        "iata": "320"
+      },
+      "serviceTypeCode": {
+        "iata": "J"
+      },
+      "segmentInfo": {
+        "numberOfStops": 0,
+        "intermediateAirports": {
+          "iata": []
+        }
+      },
+      "oagFingerprint": "abf6b5018bed885b136561bb09ab68ca75ef0dcfddb542a8ca9cb02870bad3ff",
+      "codeshare": {
+        "jointOperationAirlineDesignators": [],
+        "comments010": []
+      }
+    },
+    {
+      "carrierCode": {
+        "iata": "KQ",
+        "icao": "KQA"
+      },
+      "serviceSuffix": "",
+      "flightNumber": 1033,
+      "sequenceNumber": 1,
+      "flightType": "Scheduled",
+      "departure": {
+        "airport": {
+          "iata": "AMS",
+          "icao": "EHAM"
+        },
+        "terminal": "",
+        "date": "2023-04-28",
+        "passengerLocalTime": "21:35"
+      },
+      "arrival": {
+        "airport": {
+          "iata": "LHR",
+          "icao": "EGLL"
+        },
+        "terminal": "4",
+        "date": "2023-04-28",
+        "passengerLocalTime": "21:50"
+      },
+      "aircraftType": {
+        "iata": "737"
+      },
+      "serviceTypeCode": {
+        "iata": "J"
+      },
+      "segmentInfo": {
+        "numberOfStops": 0,
+        "intermediateAirports": {
+          "iata": []
+        }
+      },
+      "oagFingerprint": "b4de008f52d48efaad382f99a815afae96178a7339cdf1233ad17aa58be7fb7f",
+      "codeshare": {
+        "operatingAirlineDisclosure": {
+          "code": "KL",
+          "name": "",
+          "number": "2"
+        },
+        "aircraftOwner": {
+          "code": "KL",
+          "name": ""
+        },
+        "jointOperationAirlineDesignators": [],
+        "comments010": [],
+        "comment050": {
+          "code": "KL",
+          "serviceNumber": "1033",
+          "suffix": ""
+        }
+      }
+    }
+  ]

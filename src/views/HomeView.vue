@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import flightResults from '../components/Molecule/FlightSearch/FlightResults.vue'
+import flightResults from '../components/Molecule/FlightResults/FlightResults.vue'
 </script>
 
 <template>
