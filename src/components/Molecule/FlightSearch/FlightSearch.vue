@@ -8,15 +8,15 @@ import type { City } from '@/interface/types'
 import { useFlightSearch } from '@/composable/useFlightSearch'
 import { useTimeline } from '@/composable/useTimeline'
 
-const { state, searchData, searchQuery, selected } = useFlightSearch()
+const { state, searchData, searchQuery } = useFlightSearch()
 const { selectTimeline } = useTimeline()
 
 const cities: City[] = [
-  { name: 'New York', code: 'JFK' },
-  { name: 'Pisa', code: 'PSA' },
-  { name: 'London Heathrow', code: 'LHR' },
-  { name: 'Amsterdam', code: 'AMS' },
-  { name: 'Paris', code: 'ORY' },
+  { name: 'New York', code: 'JFK', zone: 'America/New_York' },
+  { name: 'Pisa', code: 'PSA', zone: 'Europe/Paris' },
+  { name: 'London Heathrow', code: 'LHR', zone: 'Europe/London' },
+  { name: 'Amsterdam', code: 'AMS', zone: 'Europe/Amsterdam' },
+  { name: 'Paris', code: 'ORY', zone: 'Europe/Paris' },
 ]
 
 const submitSearch = () => {
@@ -26,7 +26,7 @@ const submitSearch = () => {
 </script>
 
 <template>
-  <div v-if="selected !== 'selected'" class="search">
+  <div v-if="state === 'idle'" class="search">
     <h2>Vluchten zoeken</h2>
 
     <form class="search-form" @submit.prevent="submitSearch">

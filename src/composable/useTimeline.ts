@@ -41,6 +41,7 @@ export function useTimeline() {
       item.isSelected = !item.isSelected;
     }
   }
+  
 
 	return {
 		timeline,

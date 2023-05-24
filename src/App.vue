@@ -1,12 +1,11 @@
 <script setup lang="ts">
-import { ref } from 'vue'
-import { RouterView } from 'vue-router'
 import Timeline from 'primevue/timeline'
 import FlightSearch from './components/Molecule/FlightSearch/FlightSearch.vue'
 import FlightResults from './components/Molecule/FlightResults/FlightResults.vue'
 import FlightPassengers from './components/Molecule/FlightPassengers/FlightPassengers.vue'
 
 import type { TimelineItem } from '@/interface/types'
+
 import { useTimeline } from '@/composable/useTimeline'
 import { useFlightSearch } from '@/composable/useFlightSearch'
 
