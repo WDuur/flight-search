@@ -1,4 +1,3 @@
-import type { N } from 'vitest/dist/types-71ccd11d'
 
 export interface TimelineItem {
   id: number
@@ -6,9 +5,13 @@ export interface TimelineItem {
   isSelected: boolean
 }
 
+export interface TimeInBetween {
+  flightTime: string;
+}
 export interface City {
     name: string
     code: string
+    zone: string
 }
 
 interface Airport {

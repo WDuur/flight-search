@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { computed } from 'vue'
+import Card from 'primevue/card'
 import InputText from 'primevue/inputtext'
 import Divider from 'primevue/divider'
 import { usePassengers } from '@/composable/usePassengers'
@@ -15,13 +16,6 @@ const props = defineProps({
 const currentMember = computed(() => {
   console.log('props.attendeeNumber', props.attendeeNumber)
   return tourGroup.member[props.attendeeNumber] || {}
-})
-
-const test = computed(() => {
-  const { firstName, lastName, code } = currentMember.value
-  const updatedMember = { firstName, lastName, code }
-  console.log(updatedMember)
-  return updatedMember
 })
 
 const headerText = computed(() =>
