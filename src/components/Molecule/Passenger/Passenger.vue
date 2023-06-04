@@ -1,6 +1,5 @@
 <script setup lang="ts">
 import { computed } from 'vue'
-import Card from 'primevue/card'
 import InputText from 'primevue/inputtext'
 import Divider from 'primevue/divider'
 import { usePassengers } from '@/composable/usePassengers'
@@ -30,30 +29,46 @@ const headerText = computed(() =>
   <h2>{{ headerText }}</h2>
 
   <span class="p-label">
-    <label for="firstName">Voornaam:</label>
-    <InputText id="firstName" v-model="currentMember.firstName" />
+    <label class="sr-only" for="firstName">Voornaam:</label>
+    <InputText
+      id="firstName"
+      v-model="currentMember.firstName"
+      placeholder="Voornaam"
+    />
   </span>
 
   <span class="p-label">
-    <label for="lastName">Achternaam:</label>
-    <InputText id="lastName" v-model="currentMember.lastName" />
+    <label class="sr-only" for="lastName">Achternaam:</label>
+    <InputText
+      id="lastName"
+      v-model="currentMember.lastName"
+      placeholder="Achternaam"
+    />
   </span>
 
   <span v-if="attendeeNumber === 0">
     <span class="p-label">
-      <label for="lastName">Adres:</label>
-      <InputText id="lastName" v-model="currentMember.address" />
+      <label class="sr-only" for="address">Adres:</label>
+      <InputText
+        id="address"
+        v-model="currentMember.address"
+        placeholder="Adres"
+      />
     </span>
 
     <span class="p-label">
-      <label for="lastName">Plaats:</label>
-      <InputText id="lastName" v-model="currentMember.city" />
+      <label class="sr-only" for="city">Plaats:</label>
+      <InputText id="city" v-model="currentMember.city" placeholder="Plaats" />
     </span>
   </span>
 
   <span class="p-label">
-    <label for="lastName">Pasport of ID nummer</label>
-    <InputText id="lastName" v-model="currentMember.code" />
+    <label class="sr-only" for="idnumber">Pasport of ID nummer:</label>
+    <InputText
+      id="idnumber"
+      v-model="currentMember.code"
+      placeholder="Pasport of ID nummer"
+    />
   </span>
 </template>
 
@@ -63,7 +78,7 @@ const headerText = computed(() =>
   justify-content: space-between;
   align-items: center;
   input {
-    width: 65%;
+    width: 100%;
   }
 }
 </style>

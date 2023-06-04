@@ -12,16 +12,16 @@ const { state, searchData, searchQuery } = useFlightSearch()
 const { selectTimeline } = useTimeline()
 
 const cities: City[] = [
+  { name: 'Amsterdam', code: 'AMS', zone: 'Europe/Amsterdam' },
   { name: 'New York', code: 'JFK', zone: 'America/New_York' },
   { name: 'Pisa', code: 'PSA', zone: 'Europe/Paris' },
   { name: 'London Heathrow', code: 'LHR', zone: 'Europe/London' },
-  { name: 'Amsterdam', code: 'AMS', zone: 'Europe/Amsterdam' },
   { name: 'Paris', code: 'ORY', zone: 'Europe/Paris' },
 ]
 
 const submitSearch = () => {
   searchQuery()
-  selectTimeline(0)
+  selectTimeline('select')
 }
 </script>
 
@@ -59,7 +59,8 @@ const submitSearch = () => {
       <Button
         type="submit"
         severity="warning"
-        label="Submit"
+        label="Verder"
+        icon="pi pi-chevron-right"
         class="search-form__submit"
         :disabled="state === 'result'"
       />

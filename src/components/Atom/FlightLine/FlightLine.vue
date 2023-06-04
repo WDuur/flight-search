@@ -95,6 +95,10 @@ const flightDuration = computed(() => {
           background: var(--darkSlateGray);
         }
       }
+      .p-timeline-event-connector {
+        background-color: var(--steelBlue);
+        margin-left: 4px;
+      }
     }
     &-marker {
       border: 1px solid var(--steelBlue);

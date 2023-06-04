@@ -1,6 +1,6 @@
 
 export interface TimelineItem {
-  id: number
+  id: string
   status: string
   isSelected: boolean
 }

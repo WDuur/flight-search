@@ -1,31 +1,31 @@
 import { ref } from 'vue'
+import type { TimelineItem } from '@/interface/types'
 
-export interface TimelineItem {
-  id: number
-  status: string
-  isSelected: boolean
-}
-
-const timeline = ref([
+const timeline = ref<TimelineItem[]>([
   {
     status: 'Vlucht zoeken',
-    isSelected: false,
-    id: 0,
+    isSelected: true,
+    id: 'search',
   },
   {
     status: 'Selecteer vlucht',
     isSelected: false,
-    id: 1,
+    id: 'select',
   },
   {
     status: 'Passagiers',
     isSelected: false,
-    id: 2,
+    id: 'passengers',
   },
   {
-    status: 'Delivered',
+    status: 'Overzicht',
     isSelected: false,
-    id: 3,
+    id: 'Overview',
+  },
+  {
+    status: 'Bevestiging',
+    isSelected: false,
+    id: 'confirmation',
   },
 ])
 
@@ -35,7 +35,7 @@ export function useTimeline() {
     console.log('selectSearchTimeline')
   }
 
-  const selectTimeline = (id: number) => {
+  const selectTimeline = (id: string) => {
     const item = timeline.value.find((item) => item.id === id);
     if (item) {
       item.isSelected = !item.isSelected;

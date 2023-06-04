@@ -1,5 +1,4 @@
 <script setup lang="ts">
-import Card from 'primevue/card'
 import TimeLabel from '../../Atom/TimeLabel/TimeLabel.vue'
 import FlightLine from '../../Atom/FlightLine/FlightLine.vue'
 

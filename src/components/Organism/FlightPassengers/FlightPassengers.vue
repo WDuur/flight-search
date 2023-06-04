@@ -3,6 +3,7 @@ import { ref } from 'vue'
 import Card from 'primevue/card'
 import InputNumber from 'primevue/inputnumber'
 import Button from 'primevue/button'
+import Divider from 'primevue/divider'
 import Passenger from '@/components/Molecule/Passenger/Passenger.vue'
 import { useFlightSearch } from '@/composable/useFlightSearch'
 import { usePassengers } from '@/composable/usePassengers'
@@ -15,18 +16,19 @@ const { selectTimeline } = useTimeline()
 const groupSize = ref<number>(0)
 
 const submitApplicant = () => {
-  attendees.value = groupSize.value
-  applicantData()
+  state.value = 'passengers'
   console.log('save', tourGroup)
 }
-const submitAttendees = () => {
-  console.log('save', tourGroup)
+
+const attendeesSize = () => {
+  attendees.value = groupSize.value
+  applicantData()
 }
 
 const restoreFlightResult = () => {
   flightResult.value = originalFlightResult.value
-  state.value = 'idle'
-  selectTimeline(1)
+  state.value = 'result'
+  selectTimeline('passengers')
 }
 </script>
 
@@ -34,7 +36,7 @@ const restoreFlightResult = () => {
   <div v-if="state === 'selected'" class="passengers">
     <card>
       <template #title>
-        <div class="flight-passenger--header">
+        <div class="flight-passenger__header">
           <h2>Passagiers</h2>
           <a
             href="#"
@@ -46,49 +48,56 @@ const restoreFlightResult = () => {
           </a>
         </div>
       </template>
+
       <template #content>
         <form class="search-form" @submit.prevent="submitApplicant">
-          <!-- <div class="flex align-items-center search-form__wrapper"> -->
           <Passenger :attendeeNumber="0" />
           <span class="p-label">
-            <label for="firstName">Email aanvrager:</label>
-            <InputText id="firstName" v-model="tourGroup.email" />
+            <label class="sr-only" for="email">Email:</label>
+            <InputText
+              id="email"
+              v-model="tourGroup.email"
+              placeholder="email"
+            />
           </span>
 
           <span class="p-label">
-            <label for="firstName">Telefoon aanvrager:</label>
-            <InputText id="firstName" v-model="tourGroup.phoneNumber" />
+            <label class="sr-only" for="phone">Telefoon:</label>
+            <InputText
+              id="phone"
+              v-model="tourGroup.phoneNumber"
+              placeholder="Adres"
+            />
           </span>
 
           <span class="p-label">
-            <label for="selectData" class="ml-2">Aantal personen: </label>
+            <label class="sr-only" for="selectData">Aantal personen: </label>
             <InputNumber
               v-model="groupSize"
               inputId="attendees"
               mode="decimal"
+              placholder="aantal"
               showButtons
               :min="0"
               :max="10"
-              @change="submitApplicant()"
+              @input="attendeesSize()"
             />
           </span>
-          <Button
-            type="submit"
-            icon="pi pi-chevron-right"
-            aria-label="select"
-          />
-          <!-- </div> -->
-        </form>
 
-        <form class="search-form" @submit.prevent="submitAttendees">
+          <Divider />
+
           <div v-for="index in attendees" :key="index">
             <Passenger :attendeeNumber="index" />
           </div>
-          <Button
-            type="submit"
-            icon="pi pi-chevron-right"
-            aria-label="select"
-          />
+
+          <div class="form-passengers__submit">
+            <Button
+              type="submit"
+              label="Verder"
+              icon="pi pi-chevron-right"
+              aria-label="select"
+            />
+          </div>
         </form>
       </template>
     </card>
@@ -96,7 +105,7 @@ const restoreFlightResult = () => {
 </template>
 
 <style scoped lang="scss">
-.flight-passenger--header {
+.flight-passenger__header {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -112,11 +121,17 @@ button {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  .p-inputnumber {
-    width: 65%;
-  }
+  .p-inputnumber,
   input {
-    width: 65%;
+    width: 100%;
+  }
+}
+.form-passengers {
+  &__submit {
+    display: flex;
+    Button {
+      margin: 10px auto;
+    }
   }
 }
 </style>

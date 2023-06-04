@@ -1,8 +1,9 @@
 <script setup lang="ts">
 import Timeline from 'primevue/timeline'
-import FlightSearch from './components/Molecule/FlightSearch/FlightSearch.vue'
-import FlightResults from './components/Molecule/FlightResults/FlightResults.vue'
-import FlightPassengers from './components/Molecule/FlightPassengers/FlightPassengers.vue'
+import FlightSearch from './components/Organism/FlightSearch/FlightSearch.vue'
+import FlightResults from './components/Organism/FlightResults/FlightResults.vue'
+import FlightPassengers from './components/Organism/FlightPassengers/FlightPassengers.vue'
+import FlightOverView from './components/Organism/FlightOverview/FlightOverView.vue'
 
 import type { TimelineItem } from '@/interface/types'
 
@@ -42,6 +43,7 @@ const selectItem = (item: TimelineItem) => {
       <FlightSearch />
       <FlightResults />
       <FlightPassengers />
+      <FlightOverView />
     </div>
   </div>
 </template>

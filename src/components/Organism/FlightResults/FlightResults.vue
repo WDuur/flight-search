@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ref, computed } from 'vue'
+import { computed, ComputedRef } from 'vue'
 import Card from 'primevue/card'
 import Button from 'primevue/button'
 import type { Flight } from '@/interface/types'
@@ -11,6 +11,9 @@ import { useTimeline } from '@/composable/useTimeline'
 const { state, flightResult, flightRoute, originalFlightResult } =
   useFlightSearch()
 const { selectTimeline } = useTimeline()
+
+type showFlightResultType = ComputedRef<boolean>
+type resultHeaderType = ComputedRef<string>
 
 const departureDate = (date: string) => {
   const [year, month, day] = date.split('-')
@@ -26,16 +29,20 @@ const selectFlight = (selectedFlight: Number) => {
     (flight: any) => flight.flightNumber === selectedFlight
   )
   state.value = 'selected'
-  selectTimeline(1)
+  selectTimeline('passengers')
 }
 
-const resultHeader = computed(() =>
+const resultHeader: resultHeaderType = computed(() =>
   state.value === 'selected' ? 'Geselecteerd:' : 'Voor u gevonden:'
 )
+
+const showFlightResult: showFlightResultType = computed(() => {
+  return state.value === 'result' || state.value === 'selected'
+})
 </script>
 
 <template>
-  <div>
+  <div v-if="showFlightResult">
     <h2>{{ resultHeader }}</h2>
     <Card
       v-for="(flight, idx) in flightResult"
@@ -58,8 +65,10 @@ const resultHeader = computed(() =>
       <template #content>
         <TimeSheet :flight="flight" />
         <Button
+          v-if="state === 'result'"
           icon="pi pi-chevron-right"
           aria-label="select"
+          :disabled="state !== 'result'"
           @click="selectFlight(flight.flightNumber)"
         />
       </template>
