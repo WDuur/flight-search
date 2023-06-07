@@ -17,12 +17,6 @@ const groupSize = ref<number>(0)
 
 const submitApplicant = () => {
   state.value = 'passengers'
-  console.log('save', tourGroup)
-}
-
-const attendeesSize = () => {
-  attendees.value = groupSize.value
-  applicantData()
 }
 
 const restoreFlightResult = () => {
@@ -50,10 +44,13 @@ const restoreFlightResult = () => {
       </template>
 
       <template #content>
-        <form class="search-form" @submit.prevent="submitApplicant">
+        <form
+          class="flight-passenger__search"
+          @submit.prevent="submitApplicant"
+        >
           <Passenger :attendeeNumber="0" />
           <span class="p-label">
-            <label class="sr-only" for="email">Email:</label>
+            <label class="sr-only" for="email">Email</label>
             <InputText
               id="email"
               v-model="tourGroup.email"
@@ -62,7 +59,7 @@ const restoreFlightResult = () => {
           </span>
 
           <span class="p-label">
-            <label class="sr-only" for="phone">Telefoon:</label>
+            <label class="sr-only" for="phone">Telefoon</label>
             <InputText
               id="phone"
               v-model="tourGroup.phoneNumber"
@@ -71,24 +68,31 @@ const restoreFlightResult = () => {
           </span>
 
           <span class="p-label">
-            <label class="sr-only" for="selectData">Aantal personen: </label>
+            <label class="sr-only" for="selectData">Aantal personen</label>
             <InputNumber
-              v-model="groupSize"
+              v-model="attendees"
               inputId="attendees"
               mode="decimal"
-              placholder="aantal"
+              placeholder="aantal"
+              prefix="Aantal reisgenoten "
               showButtons
               :min="0"
-              :max="10"
-              @input="attendeesSize()"
+              :max="3"
+              @update:model-value="applicantData()"
             />
           </span>
 
-          <Divider />
+          <TransitionGroup name="passenger">
+            <div
+              class="flight-passenger__card"
+              v-for="index in attendees"
+              :key="index"
+            >
+              <Passenger :attendeeNumber="index" />
+            </div>
+          </TransitionGroup>
 
-          <div v-for="index in attendees" :key="index">
-            <Passenger :attendeeNumber="index" />
-          </div>
+          <Divider />
 
           <div class="form-passengers__submit">
             <Button
@@ -133,5 +137,14 @@ button {
       margin: 10px auto;
     }
   }
+}
+.passenger-enter-active,
+.passenger-leave-active {
+  transition: all 0.5s ease;
+}
+.passenger-enter-from,
+.passenger-leave-to {
+  opacity: 0;
+  transform: translateX(30px);
 }
 </style>

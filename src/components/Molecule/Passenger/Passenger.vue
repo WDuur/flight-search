@@ -13,42 +13,31 @@ const props = defineProps({
 })
 
 const currentMember = computed(() => {
-  console.log('props.attendeeNumber', props.attendeeNumber)
   return tourGroup.member[props.attendeeNumber] || {}
 })
 
-const headerText = computed(() =>
+const header = computed(() =>
   props.attendeeNumber === 0
     ? 'Aanvrager'
-    : `Deelnemer ${props.attendeeNumber + 1}`
+    : `Reisgenoot ${props.attendeeNumber}`
 )
 </script>
 
 <template>
   <Divider />
-  <h2>{{ headerText }}</h2>
-
+  <h3>{{ header }}</h3>
   <span class="p-label">
-    <label class="sr-only" for="firstName">Voornaam:</label>
+    <label class="sr-only" for="firstName">Naam</label>
     <InputText
       id="firstName"
       v-model="currentMember.firstName"
-      placeholder="Voornaam"
-    />
-  </span>
-
-  <span class="p-label">
-    <label class="sr-only" for="lastName">Achternaam:</label>
-    <InputText
-      id="lastName"
-      v-model="currentMember.lastName"
-      placeholder="Achternaam"
+      placeholder="Naam"
     />
   </span>
 
   <span v-if="attendeeNumber === 0">
     <span class="p-label">
-      <label class="sr-only" for="address">Adres:</label>
+      <label class="sr-only" for="address">Adres</label>
       <InputText
         id="address"
         v-model="currentMember.address"
@@ -57,7 +46,7 @@ const headerText = computed(() =>
     </span>
 
     <span class="p-label">
-      <label class="sr-only" for="city">Plaats:</label>
+      <label class="sr-only" for="city">Plaats</label>
       <InputText id="city" v-model="currentMember.city" placeholder="Plaats" />
     </span>
   </span>
