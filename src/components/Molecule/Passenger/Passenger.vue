@@ -25,6 +25,7 @@ const header = computed(() =>
 
 <template>
   <Divider />
+  {{ attendeeNumber }}
   <h3>{{ header }}</h3>
   <span class="p-label">
     <label class="sr-only" for="firstName">Naam</label>
@@ -41,7 +42,7 @@ const header = computed(() =>
       <InputText
         id="address"
         v-model="currentMember.address"
-        placeholder="Adres"
+        placeholder="Adres**"
       />
     </span>
 

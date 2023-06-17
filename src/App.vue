@@ -1,45 +1,16 @@
 <script setup lang="ts">
-import Timeline from 'primevue/timeline'
+import MainNavgation from '@/components/Molecule/MainNavigation/MainNavigation.vue'
 import FlightSearch from './components/Organism/FlightSearch/FlightSearch.vue'
 import FlightResults from './components/Organism/FlightResults/FlightResults.vue'
 import FlightPassengers from './components/Organism/FlightPassengers/FlightPassengers.vue'
 import FlightOverView from './components/Organism/FlightOverview/FlightOverView.vue'
-
-import type { TimelineItem } from '@/interface/types'
-
-import { useTimeline } from '@/composable/useTimeline'
-import { useFlightSearch } from '@/composable/useFlightSearch'
-
-const { state } = useFlightSearch()
-const { timeline } = useTimeline()
-
-const selectItem = (item: TimelineItem) => {
-  console.log(item.status)
-}
 </script>
 
 <template>
   <div class="flight-container">
-    <div class="flight-container__timeline">
-      <Timeline :value="timeline" align="right" class="w-full md:w-20rem">
-        <template #marker="slotProps">
-          <span
-            class="marker"
-            :class="{ selected: slotProps.item.isSelected }"
-          />
-        </template>
-        <template #content="slotProps">
-          <span
-            class="flight-container__timeline--label"
-            :class="{ selected: slotProps.item.isSelected }"
-            @click="selectItem(slotProps.item)"
-            >{{ slotProps.item.status }}</span
-          >
-        </template>
-      </Timeline>
-    </div>
+    <MainNavgation />
+
     <div class="flight-container__flights">
-      {{ state }}
       <FlightSearch />
       <FlightResults />
       <FlightPassengers />
@@ -64,20 +35,9 @@ const selectItem = (item: TimelineItem) => {
   &:deep(.p-timeline-event-separator) {
     margin-right: 40px;
   }
-  .p-component {
-    cursor: pointer;
-  }
+
   &:deep(.p-timeline-event-marker) {
     background: var(--steelBlue);
-  }
-  .marker {
-    border: 2px solid var(--steelBlue);
-    border-radius: 50%;
-    width: 1rem;
-    height: 1rem;
-    &.selected {
-      background: var(--steelBlue);
-    }
   }
 }
 </style>

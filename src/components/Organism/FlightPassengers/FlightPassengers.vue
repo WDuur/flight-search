@@ -15,10 +15,20 @@ const { selectTimeline } = useTimeline()
 
 const groupSize = ref<number>(0)
 
+/**
+ * Sets the value of state to 'passengers'.
+ *
+ * @return {void}
+ */
 const submitApplicant = () => {
   state.value = 'passengers'
 }
 
+/**
+ * Restores the flight result, updates the state and selects the 'passengers' timeline.
+ *
+ * @return {void}
+ */
 const restoreFlightResult = () => {
   flightResult.value = originalFlightResult.value
   state.value = 'result'
@@ -63,7 +73,7 @@ const restoreFlightResult = () => {
             <InputText
               id="phone"
               v-model="tourGroup.phoneNumber"
-              placeholder="Adres"
+              placeholder="Telefoon"
             />
           </span>
 
@@ -145,6 +155,6 @@ button {
 .passenger-enter-from,
 .passenger-leave-to {
   opacity: 0;
-  transform: translateX(30px);
+  transform: translateY(30px);
 }
 </style>
