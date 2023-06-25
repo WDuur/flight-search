@@ -19,25 +19,9 @@ const cities: City[] = [
   { name: 'London Heathrow', code: 'LHR', zone: 'Europe/London' },
   { name: 'Paris', code: 'ORY', zone: 'Europe/Paris' },
 ]
-const validate = (n: any) => {
-  console.log('validate', n)
-}
 
 const submitSearch = () => {
   console.log(searchData)
-  if (!searchData.departure.name || !searchData.arrival.name) {
-    alert('Please select both departure and arrival cities')
-    return
-  }
-
-  // Validate departureDate
-  const now = new Date()
-  const selectedDate = new Date(searchData.departureDate)
-
-  if (isNaN(selectedDate.getTime()) || selectedDate < now) {
-    alert('Please select a valid departure date in the future')
-    return
-  }
   searchQuery()
   selectTimeline('select')
 }
@@ -64,9 +48,7 @@ const submitSearch = () => {
         optionLabel="name"
         placeholder="Van"
         class="search-form__dropdown"
-        @change="validate(searchData.departure.name)"
       />
-      <small class="p-error" id="text-error">{{ 'error' || '&nbsp;' }}</small>
 
       <Dropdown
         v-model="searchData.arrival"

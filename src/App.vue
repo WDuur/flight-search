@@ -1,9 +1,5 @@
 <script setup lang="ts">
 import MainNavgation from '@/components/Molecule/MainNavigation/MainNavigation.vue'
-import FlightSearch from './components/Organism/FlightSearch/FlightSearch.vue'
-import FlightResults from './components/Organism/FlightResults/FlightResults.vue'
-import FlightPassengers from './components/Organism/FlightPassengers/FlightPassengers.vue'
-import FlightOverView from './components/Organism/FlightOverview/FlightOverView.vue'
 </script>
 
 <template>
@@ -11,6 +7,8 @@ import FlightOverView from './components/Organism/FlightOverview/FlightOverView.
     <MainNavgation />
 
     <div class="flight-container__flights">
+      <router-view />
+
       <FlightSearch />
       <FlightResults />
       <FlightPassengers />

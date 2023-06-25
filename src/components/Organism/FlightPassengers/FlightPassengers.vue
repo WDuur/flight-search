@@ -1,5 +1,6 @@
 <script setup lang="ts">
-import { ref } from 'vue'
+import { ref, computed } from 'vue'
+import { z } from 'zod'
 import Card from 'primevue/card'
 import InputNumber from 'primevue/inputnumber'
 import Button from 'primevue/button'
@@ -21,6 +22,11 @@ const groupSize = ref<number>(0)
  * @return {void}
  */
 const submitApplicant = () => {
+  if (Object.keys(validationErrors.value).length > 0) {
+    // Handle validation errors (e.g., display a message, highlight the fields)
+    console.log('erorr: #########', validationErrors.value)
+    return
+  }
   state.value = 'passengers'
 }
 
@@ -34,6 +40,26 @@ const restoreFlightResult = () => {
   state.value = 'result'
   selectTimeline('passengers')
 }
+
+const createValidationSchema = () => {
+  return z.object({
+    email: z.string().nonempty('Email is verplicht'),
+    phone: z.string().nonempty('Adres is verplicht'),
+  })
+}
+const validationErrors = computed(() => {
+  try {
+    validationSchema.parse({
+      email: tourGroup.email,
+      phone: tourGroup.phoneNumber,
+    })
+    return {}
+  } catch (error: any) {
+    return error.formErrors.fieldErrors
+  }
+})
+
+const validationSchema = createValidationSchema()
 </script>
 
 <template>
@@ -66,6 +92,12 @@ const restoreFlightResult = () => {
               v-model="tourGroup.email"
               placeholder="email"
             />
+            <small
+              v-if="validationErrors.email"
+              class="p-error"
+              id="text-error"
+              >{{ validationErrors.email[0] }}</small
+            >
           </span>
 
           <span class="p-label">
@@ -75,6 +107,12 @@ const restoreFlightResult = () => {
               v-model="tourGroup.phoneNumber"
               placeholder="Telefoon"
             />
+            <small
+              v-if="validationErrors.phone"
+              class="p-error"
+              id="text-error"
+              >{{ validationErrors.phone[0] }}</small
+            >
           </span>
 
           <span class="p-label">
