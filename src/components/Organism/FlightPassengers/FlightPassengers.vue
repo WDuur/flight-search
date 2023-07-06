@@ -16,18 +16,46 @@ const { selectTimeline } = useTimeline()
 
 const groupSize = ref<number>(0)
 
+const useValidationError = ref({
+  email: [] as (string | undefined)[],
+  phoneNumber: [] as (string | undefined)[],
+})
+
 /**
- * Sets the value of state to 'passengers'.
+ * Submits applicant data if it is valid; otherwise, logs errors and sets validation error state.
  *
  * @return {void}
  */
 const submitApplicant = () => {
-  if (Object.keys(validationErrors.value).length > 0) {
-    // Handle validation errors (e.g., display a message, highlight the fields)
-    console.log('erorr: #########', validationErrors.value)
+  const { valid, errors } = validateApplicantData()
+
+  if (valid) {
+    state.value = 'passengers'
     return
   }
-  state.value = 'passengers'
+
+  useValidationError.value.email = Array.isArray(errors.email)
+    ? errors.email
+    : [errors.email]
+  useValidationError.value.phoneNumber = Array.isArray(errors.phoneNumber)
+    ? errors.phoneNumber
+    : [errors.phoneNumber]
+}
+
+const validateApplicantData = () => {
+  const validationSchema = createValidationSchema()
+  const { email, phoneNumber } = tourGroup
+  const validationErrors = validationSchema.safeParse({
+    email,
+    phoneNumber,
+  })
+
+  const { success } = validationErrors
+
+  return {
+    valid: success,
+    errors: success ? {} : validationErrors.error?.formErrors.fieldErrors || {},
+  }
 }
 
 /**
@@ -44,22 +72,9 @@ const restoreFlightResult = () => {
 const createValidationSchema = () => {
   return z.object({
     email: z.string().nonempty('Email is verplicht'),
-    phone: z.string().nonempty('Adres is verplicht'),
+    phoneNumber: z.string().nonempty('Telefoonnummer is verplicht'),
   })
 }
-const validationErrors = computed(() => {
-  try {
-    validationSchema.parse({
-      email: tourGroup.email,
-      phone: tourGroup.phoneNumber,
-    })
-    return {}
-  } catch (error: any) {
-    return error.formErrors.fieldErrors
-  }
-})
-
-const validationSchema = createValidationSchema()
 </script>
 
 <template>
@@ -93,10 +108,10 @@ const validationSchema = createValidationSchema()
               placeholder="email"
             />
             <small
-              v-if="validationErrors.email"
+              v-if="useValidationError.email"
               class="p-error"
               id="text-error"
-              >{{ validationErrors.email[0] }}</small
+              >{{ useValidationError.email[0] }}</small
             >
           </span>
 
@@ -108,10 +123,10 @@ const validationSchema = createValidationSchema()
               placeholder="Telefoon"
             />
             <small
-              v-if="validationErrors.phone"
+              v-if="useValidationError.phoneNumber"
               class="p-error"
               id="text-error"
-              >{{ validationErrors.phone[0] }}</small
+              >{{ useValidationError.phoneNumber[0] }}</small
             >
           </span>
 
